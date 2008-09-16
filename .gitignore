@@ -1,3 +1,4 @@
+schema.rb
 log/**
 tmp/pids/*
 database.yml
