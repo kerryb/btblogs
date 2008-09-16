@@ -1,15 +1,49 @@
-set :application, "set your application name here"
-set :repository,  "set your repository location here"
+set :application, "btblogs"
+set :scm, :git
+set :repository, 'git://github.com/kerryb/btblogs.git'
+set :branch, 'master'
+set :user, 'btblogs'
+set :deploy_to, "/home/#{user}/#{application}"
+set :deploy_via, :remote_cache
+set :use_sudo, false
 
-# If you aren't deploying to /u/apps/#{application} on the target
-# servers (which is the default), you can specify the actual location
-# via the :deploy_to variable:
-# set :deploy_to, "/var/www/#{application}"
+host = 'barranca.dreamhost.com'
+role :app, host
+role :web, host
+role :db,  host, :primary => true
 
-# If you aren't using Subversion to manage your source code, specify
-# your SCM below:
-# set :scm, :subversion
+before 'deploy:setup', 'db:create_config'
+after 'deploy:update_code', 'db:symlink'
 
-role :app, "your app-server here"
-role :web, "your web-server here"
-role :db,  "your db-server here", :primary => true
+namespace :deploy do
+  desc 'Removes all versions of the application from the server'
+  task 'destroy' do
+    run "rm -rf #{deploy_to}"
+  end
+  
+  # Restart passenger on deploy
+  desc 'Restart mod_rails with restart.txt'
+  task :restart, :roles => :app, :except => { :no_release => true } do
+    run "touch #{current_path}/tmp/restart.txt"
+  end
+  
+  [:start, :stop].each do |t|
+    desc "#{t} task is a no-op with mod_rails"
+    task t, :roles => :app do ; end
+  end
+end
+
+namespace :db do
+  desc 'Create database.yml in shared path'
+  task :create_config do
+    db_config = ERB.new(File.read('config/database.yml.erb'))
+    database_password = Capistrano::CLI.password_prompt 'Please enter database password'
+    run "mkdir -p #{shared_path}/config"
+    put db_config.result(binding), "#{shared_path}/config/database.yml"
+  end
+
+  desc 'Symlink database.yml into current path'
+  task :symlink do
+    run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
+  end
+end
