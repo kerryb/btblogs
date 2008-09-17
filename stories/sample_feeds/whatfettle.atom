@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en"
+  >
+  <id>http://blog.whatfettle.com/feed/atom/</id>
+  <updated>2008-08-04T19:50:31Z</updated>
+  <title type="text">Paul Downey</title>
+  <subtitle type="text">Whatfettle, marras?</subtitle>
+  <link rel="self" type="application/atom+xml" href="http://blog.whatfettle.com/feed/" />
+  <link rel="alternate" href="http://blog.whatfettle.com" />
+  <rights type="text">Copyright 2008</rights>
+  <generator uri="http://wordpress.org/" version="2.6">WordPress</generator>
+      <entry>
+    <id>http://blog.whatfettle.com/?p=528</id>
+    <title type="html"><![CDATA[One World - One Web Day]]></title>
+    <updated>2008-08-04T19:50:31Z</updated>
+    <published>2008-08-04T14:08:41Z</published>
+    <author>
+      <name>Paul Downey</name>
+      <email>paul.downey@whatfettle.com</email>
+<uri>http://blog.whatfettle.com</uri>    </author>
+    <link rel="replies" type="application/atom+xml" href="http://blog.whatfettle.com/2008/08/04/one-world-one-web-day/feed/" thr:count="2"  />
+    <link rel="alternate" href="http://blog.whatfettle.com/2008/08/04/one-world-one-web-day/" />
+    <category scheme="http://blog.whatfettle.com" term="Uncategorized" />
+    <summary type="html"><![CDATA[
+Inspired by a Earth Day, One Web Day is an event, held each year on the 22nd September to celebrate and cherish this amazing, precious thing called The Web. There are no less than 40 suggested ways you can participate, including signing up as one of 100 daily ambassadors.
+For my part as today&#8217;s ambassador, I [...]]]></summary>
+      <content type="html" xml:base="http://blog.whatfettle.com/2008/08/04/one-world-one-web-day/"><![CDATA[<p><a href="http://www.flickr.com/photos/psd/2731067095/" title="One World - One Web by psd, on Flickr"><img src="http://farm4.static.flickr.com/3156/2731067095_73f8f62020.jpg" width="500" height="353" alt="One World - One Web" /></a>
+<p>Inspired by a <a href="http://earthday.net/">Earth Day</a>, <a href="http://onewebday.org/">One Web Day</a> is an event, held each year on the 22nd September to celebrate and cherish this amazing, precious thing called The Web. There are no less than <a href="http://www.onewebday.org/base/index.php/OneWebDay_in_a_box">40 suggested ways</a> you can participate, including signing up as one of <a href="http://onewebday.org/base/index.php/OWD_Ambassadors_2008">100 daily ambassadors</a>.</p>
+<p>For my part as today&#8217;s ambassador, I shied away from telling a single, personal story about how the Web has impacted me, because that&#8217;s a continual thing, and decided instead to draw a <a href="http://flickr.com/photos/psd/2731067095/">poster</a>. This started out as a series of &#8220;Home Sweet Home&#8221; sampler like mottos, drifted through some gentle Web homilies and ended up in fire and brimstone: &#8220;You&#8217;re going to hell, RIA and RIAA lovers!&#8221;. Whoops! It&#8217;s published under a <a href="http://creativecommons.org/licenses/by/3.0/">CC</a> license, and is available as high resolution PDF on <a href="http://www.archive.org/details/OneWorld-OneWeb">archive.org</a>.</p>
+]]></content>
+        </entry>
+    <entry>
+    <id>http://blog.whatfettle.com/?p=520</id>
+    <title type="html"><![CDATA[A Matter of Taste]]></title>
+    <updated>2008-07-26T21:39:07Z</updated>
+    <published>2008-07-26T11:12:55Z</published>
+    <author>
+      <name>Paul Downey</name>
+      <email>paul.downey@whatfettle.com</email>
+<uri>http://blog.whatfettle.com</uri>    </author>
+    <link rel="replies" type="application/atom+xml" href="http://blog.whatfettle.com/2008/07/26/a-matter-of-taste/feed/" thr:count="3"  />
+    <link rel="alternate" href="http://blog.whatfettle.com/2008/07/26/a-matter-of-taste/" />
+    <category scheme="http://blog.whatfettle.com" term="Uncategorized" />
+    <summary type="html"><![CDATA[
+I&#8217;ve started encountering Web pages where the OpenID and Microsoft Information Card/CardSpace, logos sit side by side. Actually, that&#8217;s a blatant lie. I think I saw one once, but can&#8217;t find it again. Anyway, I thought it would be an interesting experiment to show folks both logos and see what they thought and by &#8220;folks&#8221; [...]]]></summary>
+      <content type="html" xml:base="http://blog.whatfettle.com/2008/07/26/a-matter-of-taste/"><![CDATA[<p><a href="http://www.flickr.com/photos/psd/2703669290/" title="A Matter of Taste by psd, on Flickr"><img src="http://farm4.static.flickr.com/3283/2703669290_83c4546cbd.jpg" width="500" height="242" alt="A Matter of Taste" /></a>
+<p>I&#8217;ve started encountering Web pages where the <a href="http://openid.net">OpenID</a> and <a href="http://netfx3.com/content/WindowsCardspaceHome.aspx">Microsoft Information Card</a>/<a href="http://en.wikipedia.org/wiki/Windows_CardSpace">CardSpace</a>, logos sit side by side. Actually, that&#8217;s a blatant lie. I think I saw one once, but can&#8217;t find it again. Anyway, I thought it would be an interesting experiment to show folks both logos and see what they thought and by &#8220;folks&#8221; I didn&#8217;t mean Web 2.0 junkies, rather real people, the kind <a href="http://gavinbell.com/">Gavin</a> <a href="http://www.slideshare.net/gavin/gavin-bell-data-portability-for-whom-xtech08">does a great job</a> of reminding us about, and who typically don&#8217;t <a href="http://twitter.com/kerryb/statuses/864945638">have a polarised view of Microsoft</a>.</p>
+<p>Now this evidence is obviously unscientific and highly anecdotal, but of the three sets of people I tested, nobody recognised either, <i>and I didn&#8217;t tell them what they were for</i>, all preferred <a href="http://www.ydnar.com/">Randy</a>&#8217;s OpenID logo and uniformly everyone decided the Infocard &#8220;shiny splodge&#8221; was the obvious result of a corporate following their conventional <a href="http://www.youtube.com/watch?v=kU9YeOQm3Y0">Usual Design Process</a>.
+<p>Another interesting aspect came from comparing the URIs for downloading the icons. OpenID went with the rather predictable <a href="http://openid.net/logos/">openid.net/logos</a>, but the best I could find for the Information Card is the gloriously enterprisey <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=ce99e033-39a8-4bc5-9014-60ed0b560d0e&#038;displaylang=en">www.microsoft.com/downloads/details.aspx?FamilyID=ce99e033-39a8-4bc5-9014-60ed0b560d0e&#038;displaylang=en</a>, obviously an artifact of tooling which doesn&#8217;t care so much about people&#8217;s esthetics, memories, sides of busses, or even <a href="http://blog.whatfettle.com/2004/10/27/uris-everywhere/">shower heads</a>, but locking publishers in and hiding them from silly inconsequential details such as The Web. You can fully expect that URI to morph into a different value soon, killing your bookmarks and this blog post. It looks decidedly un<a href="http://www.w3.org/Provider/Style/URI">cool</a>.</p>
+<p>Please, by all means, dismiss this post as me being a flippant kitten, but it&#8217;s all a matter of taste, and taste matters.</p>
+]]></content>
+        </entry>
+    <entry>
+    <id>http://blog.whatfettle.com/?p=515</id>
+    <title type="html"><![CDATA[Task Specific Browsers]]></title>
+    <updated>2008-07-20T18:55:54Z</updated>
+    <published>2008-07-20T18:18:03Z</published>
+    <author>
+      <name>Paul Downey</name>
+      <email>paul.downey@whatfettle.com</email>
+<uri>http://blog.whatfettle.com</uri>    </author>
+    <link rel="replies" type="application/atom+xml" href="http://blog.whatfettle.com/2008/07/20/task-specific-browsers/feed/" thr:count="6"  />
+    <link rel="alternate" href="http://blog.whatfettle.com/2008/07/20/task-specific-browsers/" />
+    <category scheme="http://blog.whatfettle.com" term="Uncategorized" />
+    <summary type="html"><![CDATA[Most of the vision of the Web for 2008 seems to be coming true, which means it was either highly portent or most likely, already advent. I&#8217;ll do a full round up at the end of the year, but in the meantime let me game the game by pimping one of the laggards: Site Specific [...]]]></summary>
+      <content type="html" xml:base="http://blog.whatfettle.com/2008/07/20/task-specific-browsers/"><![CDATA[<p>Most of the <a href="http://blog.whatfettle.com/2008/01/04/a-vision-of-the-web-in-2008/">vision of the Web for 2008</a> seems to be coming true, which means it was either highly portent or most likely, already advent. I&#8217;ll do a full round up at the end of the year, but in the meantime let me game the game by pimping one of the laggards: <a href="http://blog.whatfettle.com/2008/01/04/a-vision-of-the-web-in-2008/#SSB">Site Specific Browsers</a>. In the prediction, I cited <a href="http://labs.mozilla.com/2007/10/prism/">Prism</a> and <a href="http://fluidapp.com/i/dock_large.png">Fluidapp</a> already, which in essence build a browser for a single site, giving you a separate icon in your taskbar. Then there are the full sized widgets, applications dedicated to reskinning a site <a href="http://mailplaneapp.com/">Mailplane</a> for reading SPAM, <a href="http://desktop.ebay.com/">eBay desktop</a> for finding scammers and <a href="http://iconfactory.com/software/twitterrific">Twiteriffic</a> for <a href="http://blog.whatfettle.com/2008/07/20/25-words/">frittering your life away</a>.</p>
+<p>All fine and dandy, but wasn&#8217;t really what I was getting at. A few months ago. A friend, who shall remain nameless, was showing me something cool on his laptop. As he typed the web address into Safari I remarked on the risk of, ahem, interesting URIs dropping down, to which he joked &#8220;don&#8217;t worry, I always use Firefox to surf for pr0n&#8221;. That joke revealed two great  user stories:</p>
+<ul>
+<li>Firstly, performing all your internet banking in a Site Specific Browser is a great idea if that browser is tied to a single bank&#8217;s site and <a href="http://en.wikipedia.org/wiki/Sandbox_(computer_security)">sandboxes</a> your passwords, cookies, cache and history from other instances of the browser or widgets.</li>
+<li>Secondly, a &#8220;Task&#8221; or &#8220;Subject Specific Browser&#8221;, an instance of your current browser you flag for researching &#8220;butterflies&#8221;, <a href="http://www.google.com/search?q=%22muppet+death+metal%22">Muppet Death Metal</a>, or <a href="http://search.twitter.com/search?q=%22+things+googled+today%22">whatever</a>, which then collects a compartmentalised subject specific cache and history for later mining, or cleansing, would be useful. Really useful.</li>
+</ul>
+<p>Do such things already exist? Yes or no, expect them to be big!</p>
+]]></content>
+        </entry>
+    <entry>
+    <id>http://blog.whatfettle.com/?p=512</id>
+    <title type="html"><![CDATA[25 Words]]></title>
+    <updated>2008-07-20T11:58:22Z</updated>
+    <published>2008-07-20T11:58:22Z</published>
+    <author>
+      <name>Paul Downey</name>
+      <email>paul.downey@whatfettle.com</email>
+<uri>http://blog.whatfettle.com</uri>    </author>
+    <link rel="replies" type="application/atom+xml" href="http://blog.whatfettle.com/2008/07/20/25-words/feed/" thr:count="8"  />
+    <link rel="alternate" href="http://blog.whatfettle.com/2008/07/20/25-words/" />
+    <category scheme="http://blog.whatfettle.com" term="Uncategorized" />
+    <summary type="html"><![CDATA[I also like the 25 words writing project, enough to overcome, and air, my current malaise:
+In front of a Web connected computer he can change the world with vigor, instead chronic procrastination means life is frittered away, page refreshing Twitter.
+]]></summary>
+      <content type="html" xml:base="http://blog.whatfettle.com/2008/07/20/25-words/"><![CDATA[<p>I <a href="http://confusedofcalcutta.com/2008/07/19/25-words/">also like</a> the <a href="http://www.successful-blog.com/1/writing-project-25-words-of-work-life-wisdom/">25 words</a> writing project, enough to overcome, and air, my current malaise:</p>
+<blockquote><p>In front of a Web connected computer he can change the world with vigor, instead <a href="http://en.wikipedia.org/wiki/Procrastination">chronic procrastination</a> means life is frittered away, page refreshing Twitter.</p></blockquote>
+]]></content>
+        </entry>
+    <entry>
+    <id>http://blog.whatfettle.com/?p=511</id>
+    <title type="html"><![CDATA[Salvation with Mild Scorn]]></title>
+    <updated>2008-06-12T11:19:42Z</updated>
+    <published>2008-06-12T10:37:47Z</published>
+    <author>
+      <name>Paul Downey</name>
+      <email>paul.downey@whatfettle.com</email>
+<uri>http://blog.whatfettle.com</uri>    </author>
+    <link rel="replies" type="application/atom+xml" href="http://blog.whatfettle.com/2008/06/12/mild-scorn-with-salvation/feed/" thr:count="0"  />
+    <link rel="alternate" href="http://blog.whatfettle.com/2008/06/12/mild-scorn-with-salvation/" />
+    <category scheme="http://blog.whatfettle.com" term="Uncategorized" />
+    <summary type="html"><![CDATA[Some of my colleagues, excited about a free upcoming NESTA talk by Sir Tim Berners-Lee, asked me for a recommendation. My involvement with the W3C probably makes me the worst person to set expectations, so I aimed for the opposite of &#8220;damming with faint praise&#8221;:
+I&#8217;ve heard Timbl talk a number of times, and on each [...]]]></summary>
+      <content type="html" xml:base="http://blog.whatfettle.com/2008/06/12/mild-scorn-with-salvation/"><![CDATA[<p>Some of my <a href="http://www.osmosoft.com">colleagues</a>, excited about a free <a href="http://upcoming.yahoo.com/event/780679/">upcoming</a> <a href="http://www.nesta.org.uk/">NESTA</a> <a href="http://timbernerslee.eventbrite.com/">talk</a> by <a href="http://www.w3.org/People/Berners-Lee/">Sir Tim Berners-Lee</a>, asked me for a recommendation. My involvement with the <a href="http://www.w3.org">W3C</a> probably makes me the worst person to set expectations, so I aimed for the opposite of &#8220;damming with faint praise&#8221;:</p>
+<p>I&#8217;ve heard Timbl talk a number of times, and on each occasion been been shocked to the core how someone so powerful and authoritative, can apparently be presenting so badly. He speaks rapidly. There are a million thoughts which fight to come out of his head, and all at the same time. Sometimes, seemingly random thoughts usurp planned ones, and excite him more than the scripted ones. It can be a little like watching <a href="http://en.wikipedia.org/wiki/Emo_Philips">Emo Phillips</a> impersonating <a href="http://en.wikipedia.org/wiki/John_Moschitta">John Moschitta</a></p>
+<p>Then there is the feeling he&#8217;s selling something, yes, it&#8217;s that difficult second album &#8220;<a href="http://www.w3.org/2001/sw/">The Semantic Web</a>&#8220;, which, empirically, we&#8217;re not buying. Well not yet, anyway. Once, having queued to the mic to ask an impassioned, personalised question on privacy to a <a href="http://www.w3.org/News/2007#item92">Web 2.0</a> panel with <a href="http://radar.oreilly.com/tim/">Tim O&#8217;Reilly</a>, I was startled, but unsurprised for it to be discarded by Timbl and the previous technical question on RDF revisited. In excruciating detail. That particular panel left me with the strong feeling that O&#8217;Reilly knows exactly where we are now, and Berners-Lee knows exactly where we should be, but nobody really knew how to join the two together.</p>
+<p>That scorn sounds bad, so here is the salvation. After you leave Timbl&#8217;s company, you find yourself digesting, thinking and talking about and then reusing what he said. You realise he was relevant and very challenging. And you recall that this really was the guy who was instrumental in making the Web happen, and not entirely by luck or accident, and who created and leads a great organisation tasked with leading The Web to its full potential.</p>
+</p>
+<p>In short: hearing Timbl speak is always well worth the rapid, but never vapid, immersion, and I remain an unashamed fan!</p>
+]]></content>
+        </entry>
+    <entry>
+    <id>http://blog.whatfettle.com/?p=510</id>
+    <title type="html"><![CDATA[The Web, Absorbing Fools Since 1991]]></title>
+    <updated>2008-05-20T22:04:39Z</updated>
+    <published>2008-05-20T20:45:59Z</published>
+    <author>
+      <name>Paul Downey</name>
+      <email>paul.downey@whatfettle.com</email>
+<uri>http://blog.whatfettle.com</uri>    </author>
+    <link rel="replies" type="application/atom+xml" href="http://blog.whatfettle.com/2008/05/20/the-web-absorbing-fools-since-1991/feed/" thr:count="1"  />
+    <link rel="alternate" href="http://blog.whatfettle.com/2008/05/20/the-web-absorbing-fools-since-1991/" />
+    <category scheme="http://blog.whatfettle.com" term="Uncategorized" />
+    <summary type="html"><![CDATA[I liked, really liked, Jim&#8217;s Notes from the Aussie Architectural Astronaut Assembly but do have a small 409 Conflict with the assertion &#8220;REST isn&#8217;t simple&#8221;. It is true you have to be a protocol weenie or an unconscious idiot before you can comfortably use phrases such as &#8220;hypertext is the engine of application state&#8221;, but [...]]]></summary>
+      <content type="html" xml:base="http://blog.whatfettle.com/2008/05/20/the-web-absorbing-fools-since-1991/"><![CDATA[<p>I liked, really liked, Jim&#8217;s <a href="http://jim.webber.name/2008/05/20/2f7966ac-29e8-4569-8645-6e85ba449898.aspx">Notes from the Aussie Architectural Astronaut Assembly</a> but do have a small <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.10">409 Conflict</a> with the assertion &#8220;REST isn&#8217;t simple&#8221;. It is true you have to be a protocol weenie or an unconscious idiot before you can comfortably use phrases such as <a href="http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm">&#8220;hypertext is the engine of application state&#8221;</a>, but there are levels of understanding which are still useful: plumbing is complex, but you don&#8217;t need to understand it to flush a loo or make a cup of tea. As for <code>409</code>, although I&#8217;ve encountered it in the wild using Subversion, I somehow doubt many would advocate <a href="http://rest.blueoxen.net/cgi-bin/wiki.pl?WebDav">WebDAV as the best pattern for REST</a> and I know my mental model of how it &#8220;works&#8221; would break down under Jim&#8217;s detailed questioning.  So I&#8217;d swerve using <code>409</code> in much the same way Jim swerves ETag, Sam&#8217;s <a href="http://intertwingly.net/blog/2006/06/05/Elevator-Pitch">REST litmus test</a>. Jim&#8217;s asking &#8220;do you really need sub-second responses and correctness?&#8221; is my favorite approach because if things are getting tricksy, your best tactic is to simplify.</p>
+<p>Such admissions obviously put me firmly in amongst the REST chattering classes, but I think that&#8217;s OK because the Web has survived and continues to grow like <a href="http://en.wikipedia.org/wiki/Uncle_Tom's_Cabin#Topsy">Topsy</a> despite the ignorance of the gory details amongst most developers, and inspite of so much bad magic specified by vendors and baked into b0rked software. The Web not only suffers ignorant fools like me gladly, it continues to absorb us in every sense.</p>
+]]></content>
+        </entry>
+    <entry>
+    <id>http://blog.whatfettle.com/2008/05/11/tiddlyprocessing/</id>
+    <title type="html"><![CDATA[TiddlyProcessing]]></title>
+    <updated>2008-06-19T03:22:42Z</updated>
+    <published>2008-05-11T20:57:08Z</published>
+    <author>
+      <name>Paul Downey</name>
+      <email>paul.downey@whatfettle.com</email>
+<uri>http://blog.whatfettle.com</uri>    </author>
+    <link rel="replies" type="application/atom+xml" href="http://blog.whatfettle.com/2008/05/11/tiddlyprocessing/feed/" thr:count="9"  />
+    <link rel="alternate" href="http://blog.whatfettle.com/2008/05/11/tiddlyprocessing/" />
+    <category scheme="http://blog.whatfettle.com" term="Uncategorized" />
+    <summary type="html"><![CDATA[
+Processing is one of those things I keep on coming across, first through toy hackers such as krazydad, ni [video] and The Curiosity Collective and more recently in Maker articles and O&#8217;Reilly books such as Vizualizing Data and Making Things Talk. I&#8217;d even invested in the rather heavy Processing, Creative Coding and Computational Art, all [...]]]></summary>
+      <content type="html" xml:base="http://blog.whatfettle.com/2008/05/11/tiddlyprocessing/"><![CDATA[<p><object type="application/x-shockwave-flash" width="400" height="300" data="http://www.flickr.com/apps/video/stewart.swf?v=49235" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"><param name="flashvars" value="intl_lang=en-us&amp;photo_secret=9a2d70d532&amp;photo_id=2483583331"></param><param name="movie" value="http://www.flickr.com/apps/video/stewart.swf?v=49235"></param><param name="bgcolor" value="#000000"></param><param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/video/stewart.swf?v=49235" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&amp;photo_secret=9a2d70d532&amp;photo_id=2483583331" height="300" width="400"></embed></object></p>
+<p><a href="http://processing.org/">Processing</a> is one of those things I keep on coming across, first through toy hackers such as <a href="http://www.krazydad.com/p5/">krazydad</a>, <a href="http://twitter.com/ni">ni</a> [<a href="http://www.vimeo.com/792469">video</a>] and <a href="http://curiositycollective.org/curiosity/?p=276">The Curiosity Collective</a> and more recently in Maker articles and O&#8217;Reilly books such as <a href="http://www.oreilly.com/catalog/9780596514556/">Vizualizing Data</a> and <a href="http://www.oreilly.com/catalog/9780596510510/">Making Things Talk</a>. I&#8217;d even invested in the rather heavy <a href="http://www.amazon.co.uk/Processing-Creative-Coding-Computational-Foundation/dp/159059617X">Processing, Creative Coding and Computational Art</a>, all totally inspiring, and yet I somehow hadn&#8217;t got around to actually doing anything with it. You see it&#8217;s the whole Java thing that puts me off; when it comes to playtime life&#8217;s far too short to wrangle a CLASSPATH or compile an applet.</p>
+<p>So, it was great to see the amazing <a href="http://ejohn.org/">John Resig</a> finally release his native Javascript implementation <a href="http://ejohn.org/blog/processingjs/">Processing.js</a>. To allow easy experimention, I&#8217;ve wrapped John&#8217;s code into a <a href="http://tiddlywiki.com">TiddlyWiki</a> <a href="http://svn.tiddlywiki.org/Trunk/contributors/PaulDowney/plugins/ProcessingjsPlugin.js">Plugin</a>, which took all of 10 minutes thanks to the prior art of <a href="http://simonbaird.com/">Simon Baird</a>&#8217;s <a href="http://mptw2.tiddlyspot.com/#Clock2">cool clock</a>. It took a little longer to knife and fork John&#8217;s <a href="http://ejohn.org/apps/processing.js/examples/basic/">basic examples</a> into a <a href="http://whatfettle.com/2008/05/TiddlyProcessing/">TiddlyProcessing</a> TiddlyWiki [<a href="http://svn.tiddlywiki.org/Trunk/contributors/PaulDowney/verticals/TiddlyProcessing/">subversion</a>], mainly because <a href="http://twitter.com/jeresig/statuses/808257007">his server was being hammered</a>.</p>
+<p>The result is a single <a href="http://whatfettle.com/2008/05/TiddlyProcessing/">HTML page</a> you can double click on an example to view the Processing source, edit it, and see the results immediately without refreshing the page.  <a href="http://whatfettle.com/2008/05/TiddlyProcessing/download.php">Download</a> and reopen it in Firefox and you&#8217;ll be able to save your changes locally. <i>Not all the examples work, in particular those which use external images. You can save your changes in other browsers if you follow the generic <a href="http://www.tiddlywiki.com/#DownloadSoftware">TiddlyWiki instructions</a>. </i>.</p>
+<p>All great fun, but it is just a hack, and I somehow doubt the purveyors of more complete bids for global vendor lock-in, such as Silverlight and AIR, are too worried as yet. But they should be. A combination of video as <a href="http://www.w3.org/2007/08/video/">a first class citizen of the Web</a>, <a href="http://developer.mozilla.org/en/docs/HTML:Canvas">Canvas</a> in <a href="http://www.w3.org/html/wg/html5/#the-canvas">decent browsers</a> and <a href="http://javascript.neyric.com/wireit/">libraries</a> and <a href="http://excanvas.sourceforge.net/">emulations</a> using <a href="http://www.w3.org/Graphics/SVG/">SVG</a> elsewhere seems pretty close to being <a href="http://blog.whatfettle.com/2007/03/30/houston-we-have-an-opportunity/">good enough</a>. As much as I&#8217;d love to see <a href="http://www.w3.org/2007/Talks/11-15-steven-soc/">more declarative approaches</a> take off, I can&#8217;t help but think <a href="http://twitter.com/psd/statuses/807343521">we&#8217;ve entered the age of the canvas!</a></p>
+<p><i>Update:  <a href="http://simonbaird.com/">Simon</a> has tweaked the plugin to avoid the need to escape single quotes and put <a href="http://tiddlyprocessing-simon.tiddlyspot.com/">his version</a> up on <a href="http://tiddlyspot.com/">TiddlySpot</a>, a great place to store your TiddlyWikis.</i></p>
+<p><!-- technorati tags start -->
+<p>Technorati Tags: <a href="http://www.technorati.com/tag/Processing" rel="tag">Processing</a>, <a href="http://www.technorati.com/tag/Processingjs" rel="tag">Processingjs</a>, <a href="http://www.technorati.com/tag/TiddlyWiki" rel="tag">TiddlyWiki</a></p>
+<p><!-- technorati tags end --></p>
+]]></content>
+        </entry>
+    <entry>
+    <id>http://blog.whatfettle.com/2008/05/10/board-games-quiz/</id>
+    <title type="html"><![CDATA[Board Games Quiz]]></title>
+    <updated>2008-05-10T14:17:43Z</updated>
+    <published>2008-05-10T07:49:27Z</published>
+    <author>
+      <name>Paul Downey</name>
+      <email>paul.downey@whatfettle.com</email>
+<uri>http://blog.whatfettle.com</uri>    </author>
+    <link rel="replies" type="application/atom+xml" href="http://blog.whatfettle.com/2008/05/10/board-games-quiz/feed/" thr:count="1"  />
+    <link rel="alternate" href="http://blog.whatfettle.com/2008/05/10/board-games-quiz/" />
+    <category scheme="http://blog.whatfettle.com" term="Uncategorized" />
+    <summary type="html"><![CDATA[
+Another year, and another quiz sheet for our local school Spring Fair. The theme of this year&#8217;s fair is &#8220;The Beijing Olympic Games&#8221;. Sigh! So each picture represents a game. A board game. Hmm. And it&#8217;s not as cryptic as previous years. Double hmmm. As usual, I&#8217;ll post the answers after the prize draw. Have [...]]]></summary>
+      <content type="html" xml:base="http://blog.whatfettle.com/2008/05/10/board-games-quiz/"><![CDATA[<p><a href="http://blog.whatfettle.com/Quiz/"><img src="http://blog.whatfettle.com/quiz/Games.png" height="345" width="250" border="0" hspace="4" vspace="4" alt="Board Games Quiz Sheet" /></a></p>
+<p>Another year, and another quiz sheet for our local school Spring Fair. The theme of this year&#8217;s fair is &#8220;The Beijing Olympic Games&#8221;. Sigh! So each picture represents a game. A board game. Hmm. And it&#8217;s not as cryptic as previous years. Double hmmm. As usual, I&#8217;ll post the answers after the prize draw. <a href="http://blog.whatfettle.com/Quiz/#Games">Have Fun!</a></p>
+<p><!-- technorati tags start -->
+<p>Technorati Tags: <a href="http://www.technorati.com/tag/Berkhamsted" rel="tag">Berkhamsted</a>, <a href="http://www.technorati.com/tag/quiz" rel="tag">quiz</a></p>
+<p><!-- technorati tags end --></p>
+]]></content>
+        </entry>
+    <entry>
+    <id>http://blog.whatfettle.com/2008/02/19/mashup-or-integration/</id>
+    <title type="html"><![CDATA[Mashup or Integration?]]></title>
+    <updated>2008-02-19T12:27:38Z</updated>
+    <published>2008-02-19T12:05:45Z</published>
+    <author>
+      <name>Paul Downey</name>
+      <email>paul.downey@whatfettle.com</email>
+<uri>http://blog.whatfettle.com</uri>    </author>
+    <link rel="replies" type="application/atom+xml" href="http://blog.whatfettle.com/2008/02/19/mashup-or-integration/feed/" thr:count="4"  />
+    <link rel="alternate" href="http://blog.whatfettle.com/2008/02/19/mashup-or-integration/" />
+    <category scheme="http://blog.whatfettle.com" term="Uncategorized" />
+    <summary type="html"><![CDATA[Much of yesterday was spent implicitly pondering the difference between a Mashup and an Integration. The question cropped up in conversation with Gareth, but came to a head as the Osmosoftonians investigated the use of TiddlyWiki to add an offline experience to an internal system only a vendor account manager could love. Coincidentally, JP was [...]]]></summary>
+      <content type="html" xml:base="http://blog.whatfettle.com/2008/02/19/mashup-or-integration/"><![CDATA[<p>Much of yesterday was spent implicitly pondering the difference between a <a href="http://en.wikipedia.org/wiki/Mashup_%28web_application_hybrid%29">Mashup</a> and an <a href="http://en.wikipedia.org/wiki/Enterprise_application_integration">Integration</a>. The question cropped up in conversation with <a href="http://garethrushgrove.com">Gareth</a>, but came to a head as the <a href="http://www.osmosoft.com">Osmosoftonians</a> investigated the use of <a href="http://www.tiddlywiki.com">TiddlyWiki</a> to add an offline experience to an internal system only a vendor account manager could love. Coincidentally, <a href="http://confusedofcalcutta.com">JP</a> was also yesterday <a href="http://confusedofcalcutta.com/2008/02/18/musing-about-enterprise-information-and-flow/">musing about enterprise information and flow</a>, from which my take is the blog is very <a href="http://en.wikipedia.org/wiki/Enterprise_software#Criticisms">enterprisey</a> when <a href="http://www.wired.com/special_multimedia/2008/ff_secretlife_1602">charted on a diagram</a>, but that&#8217;s all hidden, dynamic loosely connected, plumbing. It&#8217;s a convoluted route when drawn out in plan, but the result of the power of hyperlinks: you don&#8217;t need <a href="http://www.well.com/~doctorow/metacrap.htm">a map</a> to construct a Web-flow, you just follow the signs.</p>
+<p>As a result, I&#8217;m pretty sure there isn&#8217;t a knife-edge, a <a href="http://en.wikipedia.org/wiki/Nonconstructive_proof">nonconstructive proof</a>, but when considering calling something a mashup, you might like to ask the following questions:</p>
+<ul>
+<li id="zero-touch">Is everything &#8220;zero touch&#8221;, that is, can you get to your data without having to engage in a dialog with some <a href="http://en.wikipedia.org/wiki/Jobsworth">jobsworth</a> to ask for permission, open up a channel, send you documentation, add users, test data, whatever?</li>
+<li id="safety">Can you play around with the data, view it in a browser without worrying about accidently firing nuclear missiles? In other words, <a href="http://blog.whatfettle.com/2005/10/31/is-it-safe/">is it safe?</a></li>
+<li id="cool-URIs">Is the site stable? Can you send a link to a page to someone else and they, assuming they have access, see the same data? Are the Web pages bookmarkable? That is, does the site use <a href="http://www.w3.org/Provider/Style/URI">cool URIs</a>?</li>
+<li id="parseable-data">Is the data available in an open, easily parseable form, <a href="http://en.wikipedia.org/wiki/Microformats">HTML with Microformats</a>, <a href="http://en.wikipedia.org/wiki/Atom_%28standard%29">Atom</a>, <a href="http://en.wikipedia.org/wiki/JSON">JSON</a>, <a href="http://en.wikipedia.org/wiki/XML">XML</a>, etc</li>
+<li id="locked-in-data">Does the site eschew so called <a href="http://blog.whatfettle.com/2007/05/03/silverfish-and-appallingo/">rich user experiences</a> such as <a href="http://en.wikipedia.org/wiki/Adobe_Flash">Flash</a>, <a href="http://en.wikipedia.org/wiki/Silverlight">Silverlight</a>, <a href="http://en.wikipedia.org/wiki/Adobe_Air">AIR</a>, and other proprietary nonsense when presenting data?</li>
+<li id="warning-enterprise-developers">can you access the data from a HTML form, or with a drop of Javascript in a browser, without having to download Jar, War, Ear, DLL, PEAR, Eggs or other <a href="http://en.wikipedia.org/wiki/Sdk">SDK</a> like stuff?</li>
+<li id="pipeable">Are the URIs accessible from The Web, visible to services such as <a href="http://www.dapper.net/">Dapper</a>, <a href="http://pipes.yahoo.com/pipes/">Yahoo! Pipes</a>, <a href="http://maps.google.com/">Google Maps</a>, i.e. don&#8217;t involve <a href="http://en.wikipedia.org/wiki/Network_address_translation">NAT</a>, <a href="http://en.wikipedia.org/wiki/Windows_Internet_Naming_Service">WINS</a> or other scoped addresses which only make sense behind a firewall?</li>
+<li>Do the words &#8220;SOA&#8221;, &#8220;EAI&#8221;, &#8220;SOAP&#8221;, &#8220;WSDL&#8221;, or heaven forbid &#8220;BPEL&#8221; crop up during conversation, except within <a href="http://en.wikipedia.org/wiki/Air_quotes">bunny quotes</a> and followed by sniggers?</li>
+<li>To protect private data, does the site use <a href="http://oauth.net/">OAuth</a>, <a href="http://openid.net">OpenID</a>, a simple <a href="Digest_access_authentication">digest scheme</a> or even <a href="http://en.wikipedia.org/wiki/HTTP_cookie">Username, password and cookies</a> rather than some complex, probably <a href="http://en.wikipedia.org/wiki/Federated_identity">federated</a>, security method for access control?</li>
+<li id="strach-an-itch">Does it solve a problem for you personally, scratch <em>your itch</em> or help someone you know and care about, rather than being a prospective development to fulfill someone else&#8217;s perceived requirements for their ideal &#8220;user&#8221;?</li>
+<li id="fun">Would you ever consider developing the idea yourself, you know, just for the fun of it?</li>
+</ul>
+<p>If the answer to <i>some</i> of the above is &#8220;no&#8221;, in particular the first and last ones, then you have an integration on your hands. Bad luck. It&#8217;s going to be expensive, and certainly not pretty.</p>
+<p>Bumper sticker: <em>Mashup fun? No need to ask!</em></p>
+]]></content>
+        </entry>
+    <entry>
+    <id>http://blog.whatfettle.com/2008/01/09/b-oo-kk-ee-p-e-r/</id>
+    <title type="html"><![CDATA[B-oo-kk-ee-p-e-r]]></title>
+    <updated>2008-01-08T22:51:57Z</updated>
+    <published>2008-01-08T22:50:20Z</published>
+    <author>
+      <name>Paul Downey</name>
+      <email>paul.downey@whatfettle.com</email>
+<uri>http://blog.whatfettle.com</uri>    </author>
+    <link rel="replies" type="application/atom+xml" href="http://blog.whatfettle.com/2008/01/09/b-oo-kk-ee-p-e-r/feed/" thr:count="8"  />
+    <link rel="alternate" href="http://blog.whatfettle.com/2008/01/09/b-oo-kk-ee-p-e-r/" />
+    <category scheme="http://blog.whatfettle.com" term="Uncategorized" />
+    <summary type="html"><![CDATA[I&#8217;m really pleased Tim,  &#8220;The Man With No URI&#8221;, has started blogging, and already has pushed out some great posts. I will try and answer some of the points raised by the  topical Onwards Delegation Problem, but was diverted by Tim&#8217;s aside:
+B-oo-kk-ee-p-e-r incidentally, is the only word in the English language I&#8217;m aware [...]]]></summary>
+      <content type="html" xml:base="http://blog.whatfettle.com/2008/01/09/b-oo-kk-ee-p-e-r/"><![CDATA[<p>I&#8217;m really pleased <a href="http://san1t1.blogspot.com/2008/01/onwards-delegation-problem.html">Tim</a>,  &#8220;The Man With No URI&#8221;, has started blogging, and already has pushed out some great posts. I will try and answer some of the points raised by the  topical <a href="http://san1t1.blogspot.com/2008/01/onwards-delegation-problem.html">Onwards Delegation Problem</a>, but was diverted by Tim&#8217;s aside:</p>
+<blockquote><p>B-<strong>oo</strong>-<strong>kk</strong>-<strong>ee</strong>-p-e-r incidentally, is the only word in the English language I&#8217;m aware of with three double letters in a row. I&#8217;d love to be shown others&#8230;</p></blockquote>
+<p>Unix boxes ship with a <a href="http://en.wikipedia.org/wiki/Words_(Unix)">words file</a>, which on my Mac has 234,936 entries, and a quick grep:</p>
+<pre class="code">egrep '(.)\1(.)\2(.)\3' /usr/share/dict/words</pre>
+<p>revealed:</p>
+<pre class="code">bookkeeper
+bookkeeping
+subbookkeeper</pre>
+<p>Scraping <a href="http://en.wiktionary.org/wiki/Index:English">Wiktionary</a>:</p>
+<pre>for i in a b c d e f g h i j k l m n o p q r s t u v w x y z
+do
+    curl http://en.wiktionary.org/wiki/Index:English/$i
+done |
+    grep '&lt;li&gt;&lt;a href="/wiki/' |
+    sed 's/^.*title=\(.\)\(.*\)\1.*$/\2/' &gt; words
+</pre>
+<p>gave 72,018 words, with no plurals, but still only revealed &#8220;bookkeeper&#8221;.</p>
+<p>There are a bunch of open <a href="http://wordlist.sourceforge.net/">word lists</a> around the Web, many harvested from <a href="http://a-z-dictionaries.com/Open_Source_Dictionary_Gutenberg.html">Gutenberg</a>, but <a href="http://www.dcs.shef.ac.uk/research/ilash/Moby/mwords.html">Moby Words</a>, having 619,361 words and claiming to be &#8220;<a href="http://www.dcs.shef.ac.uk/research/ilash/Moby/">the largest word list in the world</a>&#8220;, could only come up with:</p>
+<pre>assistant bookkeeper
+bookkeep
+bookkeeper
+bookkeeper's
+bookkeepers
+bookkeeping
+bookkeepings
+bookkeeps
+double-entry bookkeeping
+single-entry bookkeeping
+subbookkeeper</pre>
+<p>Oh well, I did at least try.</p>
+]]></content>
+        </entry>
+  </feed>

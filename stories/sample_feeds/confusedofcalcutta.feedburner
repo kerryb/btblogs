@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>confused of calcutta</title>
+	
+	<link>http://confusedofcalcutta.com</link>
+	<description>a blog about information</description>
+	<pubDate>Fri, 12 Sep 2008 15:29:01 +0000</pubDate>
+	<generator>http://wordpress.org/?v=2.5.1</generator>
+	<language>en</language>
+			<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/ConfusedOfCalcutta" type="application/rss+xml" /><item>
+		<title>More musing about news: wikinews</title>
+		<link>http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~3/390755102/</link>
+		<comments>http://confusedofcalcutta.com/2008/09/12/more-musing-about-news-wikinews/#comments</comments>
+		<pubDate>Fri, 12 Sep 2008 15:29:01 +0000</pubDate>
+		<dc:creator>JP</dc:creator>
+		
+		<category><![CDATA[Four pillars ]]></category>
+
+		<guid isPermaLink="false">http://confusedofcalcutta.com/?p=1325</guid>
+		<description><![CDATA[Following on from comments on my last post, and at least in some part influenced by what I&#8217;d had bouncing around my head when I wrote this in 2006 (to do with Gresham&#8217;s Law and information), I&#8217;d like to spend a little time thinking about news as a commons, its damage and its repair.
+If we [...]]]></description>
+			<content:encoded><![CDATA[<p>Following on from<a href="http://confusedofcalcutta.com/2008/09/11/musing-about-news/"> comments on my last post</a>, and at least in some part influenced by what I&#8217;d had bouncing around my head when I <a href="http://confusedofcalcutta.com/2006/08/29/is-there-a-greshams-law-for-information/">wrote this in 2006 (to do with Gresham&#8217;s Law and information</a>), I&#8217;d like to spend a little time thinking about <em>news as a commons, its damage and its repair</em>.</p>
+<p>If we consider news to be a commons, then, taking a leaf out of <a href="http://www.herecomeseverybody.org/">Clay Shirky&#8217;s</a> book, we could think of news publishing tools and techniques slightly differently. We could think of them as ways to damage the news commons, and to repair the news commons.</p>
+<p>What damages the news commons? Lies, inaccuracies, errors, omissions. How can we make sure that the news commons suffers the least damage? By ensuring, in turn, that the cost of repairing the news commons is at least as low as the cost of damaging the news commons.</p>
+<p>Shirky made this point in the context of wikis originally, but I think it has merit in the context of news and the dissemination of news. Which leads me to thinking this way: if the tools and techniques used to disseminate news are such that the cost of repair is as low as the cost of damage, then the quality of the news disseminated will improve.</p>
+<p>In other words, the cost of stopping a lie from spreading must be as low as the cost of spreading the lie in the first place; the cost of publishing a corrected text must be as low as the cost of publishing the error-strewn text in the first place.</p>
+<p><a href="http://www.scripting.com/">Dave Winer,</a> some years ago, regularly used the phrase &#8220;River of News&#8221;, usually in the context of RSS, if memory serves me right. Tools like Twitter, when used with techniques like snurl, already provide rivers of news, but usually in the context of the news publisher rather than the news topics. Search tools like Summize then convert that into topic-based tributaries. But by definition these are streams of information without the notion of damage or correction.</p>
+<p>So what would happen if we had wiki-based newspapers? I&#8217;ve seen cursory attempts; I think there&#8217;s a lot more to come. Am I right in thinking that MSM tools and techniques are fundamentally asymmetrical in this respect, the cost of repair is far higher than the cost of damage, so damage increases over time.</p>
+<p>Why would I say this? Two reasons. One, errata, error and omission correction, retractions. These things tend to be tucked in somewhere in the bowels of a paper, while the actual errors and omissions make the premium slots. Two, if you take something like the manuals and policy handbooks in most organisations, the reason they never get used is they&#8217;re usually out of date. And why are they out of date? Because the &#8216;cost of repair&#8221; is too high.</p>
+<p>The manuals and guides and policy handbooks migrated into wiki space. In a wiki, there&#8217;s no place to hide the error or the correction.</p>
+<p>So is it time for wikinews? Where does it exist already? Where does it work well, where does it fall down?</p>
+<p>Views?</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=RzpsL"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=RzpsL" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=uFQzl"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=uFQzl" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=gBD5L"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=gBD5L" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=cffpL"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=cffpL" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~4/390755102" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://confusedofcalcutta.com/2008/09/12/more-musing-about-news-wikinews/feed/</wfw:commentRss>
+		<feedburner:origLink>http://confusedofcalcutta.com/2008/09/12/more-musing-about-news-wikinews/</feedburner:origLink></item>
+		<item>
+		<title>Musing about news</title>
+		<link>http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~3/390106172/</link>
+		<comments>http://confusedofcalcutta.com/2008/09/11/musing-about-news/#comments</comments>
+		<pubDate>Thu, 11 Sep 2008 23:06:45 +0000</pubDate>
+		<dc:creator>JP</dc:creator>
+		
+		<category><![CDATA[Four pillars ]]></category>
+
+		<guid isPermaLink="false">http://confusedofcalcutta.com/?p=1324</guid>
+		<description><![CDATA[My brother pinged me about this story today: To Infinity and Beyond. It&#8217;s about a 12-year-old autistic boy and his father carried out to sea and triumphing over the elements in miraculous ways. It&#8217;s a feel-good story. I happened to read it early this morning, before I went to work, and for sure I felt [...]]]></description>
+			<content:encoded><![CDATA[<p>My brother pinged me about this story today: <a href="http://edition.cnn.com/2008/US/09/10/rescue.at.sea/index.html">To Infinity and Beyond</a>. It&#8217;s about a 12-year-old autistic boy and his father carried out to sea and triumphing over the elements in miraculous ways. It&#8217;s a feel-good story. I happened to read it early this morning, before I went to work, and for sure I felt good as I went to work. Why not? It&#8217;s a good story. It&#8217;s a great story.</p>
+<p>I like good news. I like stories that lift my spirit. I like stories about human endeavour and relationship and commitment and character and covenant and faith.</p>
+<p>I must thank CNN as well for bothering to carry the story, against the grain as it were.</p>
+<p>Talking about news, there were a couple of incidents over the last few weeks that have intrigued and even perplexed me. Most recently, there was the short-term 75% drop in United Airlines&#8217; stock price based on Bloomberg carrying a six-year-old story in error, as reported <a href="http://www.washingtonpost.com/wp-dyn/content/article/2008/09/08/AR2008090803063.html">here in the Washington Post</a>. A few weeks before that, <a href="http://www.telegraph.co.uk/news/newstopics/howaboutthat/2638481/Steve-Jobs-obituary-published-by-Bloomberg.html?aaa">Bloomberg accidentally published an obituary</a> of Steve Jobs, then immediately retracted it.</p>
+<p>Why am I intrigued, even perplexed? Simple. Before the web, I&#8217;d accepted, at least in part,  the universal &#8220;truth&#8221; that people seemed to prefer bad news to good; I&#8217;d rationalised this on the basis that news editors believed this &#8220;truth&#8221;, and in an MSM world, it became a self-fulfilling prophecy as a result.</p>
+<p>I&#8217;d also understood, personally as well as anecdotally, that the same thing was true about reputation: Negative stories travelled faster and further than positives. And this I&#8217;d rationalised away by thinking it was about human nature and risk aversion, negative stories were calls to action, that sort of thing.</p>
+<p>Despite all this, I&#8217;d somehow expected something different when it came to the web. I&#8217;d expected a Linus&#8217;s Law to take effect on news and stories, that given enough eyeballs all &#8220;information&#8221; bugs would be shallow. For some reason this doesn&#8217;t happen; at least, it doesn&#8217;t happen as quickly as I would expect it to.</p>
+<p>Just something I&#8217;m trying to think through. Suggestions? Views? Advice?</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=qY95L"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=qY95L" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=ebJyl"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=ebJyl" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=ks8QL"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=ks8QL" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=YLEvL"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=YLEvL" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~4/390106172" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://confusedofcalcutta.com/2008/09/11/musing-about-news/feed/</wfw:commentRss>
+		<feedburner:origLink>http://confusedofcalcutta.com/2008/09/11/musing-about-news/</feedburner:origLink></item>
+		<item>
+		<title>Spiderman does it</title>
+		<link>http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~3/386117080/</link>
+		<comments>http://confusedofcalcutta.com/2008/09/07/spiderman-does-it/#comments</comments>
+		<pubDate>Sun, 07 Sep 2008 22:21:06 +0000</pubDate>
+		<dc:creator>JP</dc:creator>
+		
+		<category><![CDATA[Four pillars ]]></category>
+
+		<guid isPermaLink="false">http://confusedofcalcutta.com/?p=1322</guid>
+		<description><![CDATA[Golf aficionados amongst you have now been hearing me extol Camilo Villegas for some time now, the healthiest &#8220;product&#8221; ever to come out of Medellin. He&#8217;s just won his first PGA title a few minutes ago. You&#8217;re going to hear a lot more about him in the majors next year. He&#8217;s extraordinarily fit, he&#8217;s young [...]]]></description>
+			<content:encoded><![CDATA[<p>Golf aficionados amongst you have now been hearing me <a href="http://confusedofcalcutta.com/2008/06/08/a-long-short-game/">extol</a> <a href="http://en.wikipedia.org/wiki/Camilo_Villegas">Camilo Villegas</a> for <a href="http://confusedofcalcutta.com/2008/08/31/blemish-free/">some</a> <a href="http://confusedofcalcutta.com/2008/08/21/more-bridled-optimism/">time</a> <a href="http://confusedofcalcutta.com/2008/06/15/musing-about-wounded-knee-and-wikipedia-and-the-us-open/">now</a>, the healthiest &#8220;product&#8221; ever to come out of Medellin. He&#8217;s just <a href="http://ap.google.com/article/ALeqM5isdYQs8DLx5LZjJ1Oz_uKWdYD5ZgD93256H00">won his first PGA title</a> a few minutes ago. You&#8217;re going to hear a lot more about him in the majors next year. He&#8217;s extraordinarily fit, he&#8217;s young and talented, he&#8217;s willing to take risks, and he has an amazing touch on or near the green. And he&#8217;s great to watch.</p>
+<p><a href="http://confusedofcalcutta.com/wp-content/uploads/2008/09/2008-09-07_2320.png"><img class="aligncenter size-full wp-image-1323" title="2008-09-07_2320" src="http://confusedofcalcutta.com/wp-content/uploads/2008/09/2008-09-07_2320.png" alt="" width="500" height="364" /></a></p>
+<p>You heard it here.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=Xr6KL"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=Xr6KL" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=Gl1ll"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=Gl1ll" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=Le65L"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=Le65L" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=HUxEL"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=HUxEL" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~4/386117080" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://confusedofcalcutta.com/2008/09/07/spiderman-does-it/feed/</wfw:commentRss>
+		<feedburner:origLink>http://confusedofcalcutta.com/2008/09/07/spiderman-does-it/</feedburner:origLink></item>
+		<item>
+		<title>Blemish free</title>
+		<link>http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~3/379915715/</link>
+		<comments>http://confusedofcalcutta.com/2008/08/31/blemish-free/#comments</comments>
+		<pubDate>Sun, 31 Aug 2008 20:55:39 +0000</pubDate>
+		<dc:creator>JP</dc:creator>
+		
+		<category><![CDATA[golf]]></category>
+
+		<guid isPermaLink="false">http://confusedofcalcutta.com/?p=1321</guid>
+		<description><![CDATA[Regular readers would know that I am a big fan of golfer Camilo Villegas; I&#8217;ve been following him for quite a while, as you can see here, here and, most recently, here.
+Which is why I am pleased to see he&#8217;s just moved to the top of the leaderboard at the Deutsche Bank Championship at 16 [...]]]></description>
+			<content:encoded><![CDATA[<p>Regular readers would know that I am a big fan of <a href="http://en.wikipedia.org/wiki/Camilo_Villegas">golfer Camilo Villegas</a>; I&#8217;ve been following him for quite a while, as you can see <a href="http://confusedofcalcutta.com/2008/06/08/a-long-short-game/">here</a>, <a href="http://confusedofcalcutta.com/2008/06/15/musing-about-wounded-knee-and-wikipedia-and-the-us-open/">here</a> and, most recently, <a href="http://confusedofcalcutta.com/2008/08/21/more-bridled-optimism/">here</a>.</p>
+<p>Which is why I am pleased to see he&#8217;s just moved to <a href="http://www.pgatour.com/leaderboards/current/r505/index.html">the top of the leaderboard at the Deutsche Bank Championship</a> at 16 under par, with a blemish-free 8-under-par round today. He may not win the tournament tomorrow; what he will gain, for sure, is the experience of leading a tournament into the last round. I believe he has already learnt something really important today, by playing a round under pressure without dropping a single shot.</p>
+<p>I look forward to cheering him on in the Majors. [Update: If finishing 4th in the USPGA wasn't enough, he's going to graduate from a very good school tomorrow. He leads a pack containing winners of eight majors between them: Weir, Els, Singh and Furyk, along with the current holder of the "best golfer never to have won a major" tag, Sergio Garcia.]</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=iNCXjK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=iNCXjK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=HUDdlk"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=HUDdlk" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=bkH33K"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=bkH33K" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=BLH5bK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=BLH5bK" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~4/379915715" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://confusedofcalcutta.com/2008/08/31/blemish-free/feed/</wfw:commentRss>
+		<feedburner:origLink>http://confusedofcalcutta.com/2008/08/31/blemish-free/</feedburner:origLink></item>
+		<item>
+		<title>Enterprise 2.0: The real revolution in the making</title>
+		<link>http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~3/379911460/</link>
+		<comments>http://confusedofcalcutta.com/2008/08/31/enterprise-20-the-real-revolution-in-the-making/#comments</comments>
+		<pubDate>Sun, 31 Aug 2008 20:45:50 +0000</pubDate>
+		<dc:creator>JP</dc:creator>
+		
+		<category><![CDATA[Four pillars ]]></category>
+
+		<guid isPermaLink="false">http://confusedofcalcutta.com/?p=1320</guid>
+		<description><![CDATA[There&#8217;s a not-so-quiet battle going on during the US election, one that is going to get harder and grittier as the days go by. On the face of it, it&#8217;s a battle between &#8220;Mainstream Media&#8221; (or &#8220;MSM&#8221;, as it gets called) and &#8220;New Media&#8221; (principally the blogosphere, flickrworld and twitterverse).
+I think that the battle can [...]]]></description>
+			<content:encoded><![CDATA[<p>There&#8217;s a not-so-quiet battle going on during the US election, one that is going to get harder and grittier as the days go by. On the face of it, it&#8217;s a battle between &#8220;Mainstream Media&#8221; (or &#8220;MSM&#8221;, as it gets called) and &#8220;New Media&#8221; (principally the blogosphere, flickrworld and twitterverse).</p>
+<p>I think that the battle can be framed differently. It&#8217;s not really between MSM and New Media, it&#8217;s between MSM and Citizen Media. That&#8217;s an important distinction; the debate is about the ways in which humans gather the news, validate the facts, edit the stories and then publish them; it is less about the tools used and more about the process; and when it comes to the process, it is more about the values and ethics that drive the editing and publishing process than anything else.</p>
+<p>The treatment of the Edwards story is an example of what I&#8217;m taking about. The treatment had nothing to do with the technology used, and everything to do with MSM mores and habits and ways of doing things.</p>
+<p>In every economy, in every market, in every firm, there are ways in which information is collected, validated, ratified and published. There are people involved in the collection, validation, ratification and dissemination. There are tools and techniques involved, conventions in use. All bound together by sets of values.</p>
+<p>Now we come to Enterprise 2.0, a term that is many things to many people. There was a time when I thought I knew what it was, a time long since past. Forgive me if I don&#8217;t even attempt to define it; suffice it to say that Enterprise 2.0 is something to do with the way information flows around an organisation, allowing people to make decisions, inform others of those decisions, prioritise resources as a result, execute on the decisions, monitor the outcomes and report on them.</p>
+<p>For the past seven or eight years, I&#8217;ve had the privilege of watching the equivalent of the MSM-Citizen Media battle within organisations, and it&#8217;s been fascinating. Here&#8217;s a sampling of the questions that have been intriguing me:</p>
+<p>How does something become &#8220;fact&#8221; in an organisation, particularly when that something has to do with figures and achievements? What are the conventions used to report on these facts and figures? Who knows what these conventions are? How do the conventions get changed? Who changes them?</p>
+<p>Reporting and monitoring responsibilities in organisations tend to gravitate, quite naturally, towards the audit/control function that is &#8220;centrally&#8221; associated with the resource in question: Finance deals with matters financial, HR deal with matters human-resource-related, and so on and so forth.</p>
+<p>As Michael Power has covered so beautifully in The Risk Management of Everything, the audit explosion continues to proliferate, to a point where, paraphrasing the author, valuable yet vulnerable professional opinion is overshadowed by process minutiae and small print.</p>
+<p>This Risk-Management-Of-Everything growth is taking place at the same time as the Battle-Between-Professions, something that Andrew Abbott has expounded excellently on. And all this is happening while the Future of Work is being shaped, while the Modern Firm is being established, while Enterprise 2.0 is being birthed.</p>
+<p>So there&#8217;s turmoil. A lot of turmoil, as people within and without the firm jockey for position. And what do they use to jockey for position?</p>
+<p>Reports.</p>
+<p>Statements of &#8220;fact&#8221;.</p>
+<p>Statements of &#8220;figures&#8221;.</p>
+<p>&#8220;MSM&#8221; statements.</p>
+<p>You know something? MSM statements are easier to game than Citizen Media statements. You can only tell that MSM statements are &#8220;naked&#8221; when the tide goes out; when it comes to Citizen Media statements, they tend to be naked all the time.</p>
+<p>That&#8217;s the real revolution in the making, when the process of monitoring and reporting within the organisation switches to Citizen Media-like behaviour.</p>
+<p>Just a thought, as I laze on a Sunday evening.</p>
+<p>[An aside: Why didn't I include Facebook and MySpace and social networks in general in the "citizen media" definition? I thought hard about it, but decided not to; I felt there was a need to distinguish between those aspects of new media that supported reportage, and those that did not. Somehow I find it easy to associate blogs, flickr and twitter with reportage; that ease disappears when I try and extend it to social networks.]</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=ww7lDK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=ww7lDK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=TPvypk"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=TPvypk" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=OsddNK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=OsddNK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=7aIzZK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=7aIzZK" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~4/379911460" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://confusedofcalcutta.com/2008/08/31/enterprise-20-the-real-revolution-in-the-making/feed/</wfw:commentRss>
+		<feedburner:origLink>http://confusedofcalcutta.com/2008/08/31/enterprise-20-the-real-revolution-in-the-making/</feedburner:origLink></item>
+		<item>
+		<title>That glazed look</title>
+		<link>http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~3/379199197/</link>
+		<comments>http://confusedofcalcutta.com/2008/08/30/that-glazed-look/#comments</comments>
+		<pubDate>Sat, 30 Aug 2008 21:47:08 +0000</pubDate>
+		<dc:creator>JP</dc:creator>
+		
+		<category><![CDATA[Food]]></category>
+
+		<guid isPermaLink="false">http://confusedofcalcutta.com/?p=1315</guid>
+		<description><![CDATA[We like eating together as a family; there&#8217;s something about sharing food together on a regular basis, something I want to encourage within my family, something I want to encourage within all families.
+Particularly in winter, we try and have a roast meal every now and then. But we&#8217;re not legalistic about it, we are quite [...]]]></description>
+			<content:encoded><![CDATA[<p>We like eating together as a family; there&#8217;s something about sharing food together on a regular basis, something I want to encourage within my family, something I want to encourage within all families.</p>
+<p>Particularly in winter, we try and have a roast meal every now and then. But we&#8217;re not legalistic about it, we are quite capable of having a roast in the summer as well. More often than not, the meat du jour is chicken, we don&#8217;t have a great deal of red meat at home. Similarly, more often than not, the roast is had on a Sunday, after church, the traditional &#8220;Sunday roast&#8221; lunch.</p>
+<p>All this changed some months ago, when the church we belong to (<a href="http://www.kcionline.org/">www.kcionline.org</a>) began to have two services in the morning, at 9.30 and at 11.30; there&#8217;s always someone in the family involved in something in the &#8220;second service&#8221;, so it has meant that the Sunday roast became less frequent.</p>
+<p>So we adapted. We felt like a roast. And so we had a roast. Today. Saturday. As an evening meal. My wife and I both like rack of lamb, so I thought I&#8217;d augment the chicken and vegetables (that she was preparing) with some glazed lamb; we have some house guests staying with us at present; this way we didn&#8217;t have to cook a ginormous chicken, something I didn&#8217;t really want to do.</p>
+<p>Today I decided I&#8217;d try the <a href="http://www.epicurious.com/recipes/food/views/HONEY-GLAZED-RACK-OF-LAMB-4392">honey-and-mustard-glaze treatment with some fresh lamb. I used the epicurious recipe as a starter</a>, varying it only where I felt it was absolutely necessary. What did I vary? I dropped the canned beef broth and went for fresh beef gravy instead; did the same with the canned chicken broth, went for fresh chicken gravy instead; chopped small plum tomatoes instead of using the tomato paste; reduced the all-purpose flour quantities, raised the honey and mustard quantities. But in essence I stayed with the recipe, my variants were not material.</p>
+<p>How was it? Well, take a look for yourself:</p>
+<p><a href="http://confusedofcalcutta.com/wp-content/uploads/2008/08/dsc01205.jpg"><img class="aligncenter size-full wp-image-1316" title="dsc01205" src="http://confusedofcalcutta.com/wp-content/uploads/2008/08/dsc01205.jpg" alt="" width="500" height="375" /></a></p>
+<p>Glazed roasts are enjoyable only when the glaze really &#8220;catches&#8221;, so I was keen to get the honey and mustard to a crisp golden level. I&#8217;ve done it before, just not with honey and mustard, so I was patient enough with the basting, I had faith that the goldening would occur. And it did.</p>
+<p><a href="http://confusedofcalcutta.com/wp-content/uploads/2008/08/dsc01206.jpg"><img class="aligncenter size-full wp-image-1317" title="dsc01206" src="http://confusedofcalcutta.com/wp-content/uploads/2008/08/dsc01206.jpg" alt="" width="500" height="375" /></a></p>
+<p>Especially with rack of lamb, I try and keep the fleshy part of the chop as pink as I can get away with, crisping the edges as much as possible. It means basting regularly during the roasting, every five minutes or so during the entire 35-minute session.</p>
+<p><a href="http://confusedofcalcutta.com/wp-content/uploads/2008/08/dsc01207.jpg"><img class="aligncenter size-full wp-image-1318" title="dsc01207" src="http://confusedofcalcutta.com/wp-content/uploads/2008/08/dsc01207.jpg" alt="" width="500" height="375" /></a></p>
+<p>This is what the end-product looked like. Honey-and-mustard glazed rack of lamb with roast parsnips and potatoes, steamed carrots and fine green beans. It&#8217;s quite easy to do: the entire meal took about an hour to prepare and serve.</p>
+<p>Prior to this, I&#8217;ve tended to use fruit-based glazes: apricot, quince, plum, that sort of thing. After today&#8217;s experience, I&#8217;m probably going to stay with &#8220;thinner&#8221; glazes, they take less time, they&#8217;re easier to manage and they&#8217;re probably better for me as well.</p>
+<p>As with most things I&#8217;m interested in, when it comes to cooking I&#8217;m a passionate amateur. So I&#8217;d love to learn more from you. What have you learnt? Where do you go for your recipes? Are there handed-down-dor-generation recipes you&#8217;re prepared to share with us? Are there specific blogs you find interesting and useful in this respect?</p>
+<p>Comments and advice welcome. In the meantime I hope I&#8217;ve been of some help. I&#8217;d also like comments on this post as well&#8230; what worked for you, what didn&#8217;t.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=axxxbK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=axxxbK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=TSGDEk"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=TSGDEk" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=O27HSK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=O27HSK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=qSe75K"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=qSe75K" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~4/379199197" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://confusedofcalcutta.com/2008/08/30/that-glazed-look/feed/</wfw:commentRss>
+		<feedburner:origLink>http://confusedofcalcutta.com/2008/08/30/that-glazed-look/</feedburner:origLink></item>
+		<item>
+		<title>“there are 327 words in Inuit for Sarah Palin’</title>
+		<link>http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~3/378364365/</link>
+		<comments>http://confusedofcalcutta.com/2008/08/29/there-are-327-words-in-inuit-for-sarah-palin/#comments</comments>
+		<pubDate>Fri, 29 Aug 2008 20:00:26 +0000</pubDate>
+		<dc:creator>JP</dc:creator>
+		
+		<category><![CDATA[Four pillars ]]></category>
+
+		<guid isPermaLink="false">http://confusedofcalcutta.com/?p=1314</guid>
+		<description><![CDATA[I love the Web. I love Twitter. I love the way elections are becoming sources of entertainment. Take a look at this:
+Little known fact Palin
+Now that is viral.
+]]></description>
+			<content:encoded><![CDATA[<p>I love the Web. I love Twitter. I love the way elections are becoming sources of entertainment. Take a look at this:</p>
+<p><a href="http://search.twitter.com/search?q=little+known+fact+palin">Little known fact Palin</a></p>
+<p><em><strong>Now that is viral.</strong></em></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=4F3FeK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=4F3FeK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=krnWfk"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=krnWfk" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=ZdcdHK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=ZdcdHK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=luaK7K"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=luaK7K" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~4/378364365" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://confusedofcalcutta.com/2008/08/29/there-are-327-words-in-inuit-for-sarah-palin/feed/</wfw:commentRss>
+		<feedburner:origLink>http://confusedofcalcutta.com/2008/08/29/there-are-327-words-in-inuit-for-sarah-palin/</feedburner:origLink></item>
+		<item>
+		<title>Some like it hot</title>
+		<link>http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~3/377486440/</link>
+		<comments>http://confusedofcalcutta.com/2008/08/28/some-like-it-hot-2/#comments</comments>
+		<pubDate>Thu, 28 Aug 2008 21:25:35 +0000</pubDate>
+		<dc:creator>JP</dc:creator>
+		
+		<category><![CDATA[Four pillars ]]></category>
+
+		<guid isPermaLink="false">http://confusedofcalcutta.com/?p=1311</guid>
+		<description><![CDATA[I live in Windsor. At least I used to. Until it got just a teensy bit hotter than I would want. Which is what would have happened if the BBC forecast, shown below, was accurate&#8230;..
+
+]]></description>
+			<content:encoded><![CDATA[<p>I live in Windsor. At least I used to. Until it got just a teensy bit hotter than I would want. Which is what would have happened if the BBC forecast, shown below, was accurate&#8230;..</p>
+<p><a href="http://confusedofcalcutta.com/wp-content/uploads/2008/08/2008-08-28_2227.png"><img class="aligncenter size-full wp-image-1313" title="2008-08-28_2227" src="http://confusedofcalcutta.com/wp-content/uploads/2008/08/2008-08-28_2227.png" alt="" width="500" height="405" /></a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=LMtNxK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=LMtNxK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=xNFJtk"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=xNFJtk" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=vhZe2K"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=vhZe2K" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=ioV9CK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=ioV9CK" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~4/377486440" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://confusedofcalcutta.com/2008/08/28/some-like-it-hot-2/feed/</wfw:commentRss>
+		<feedburner:origLink>http://confusedofcalcutta.com/2008/08/28/some-like-it-hot-2/</feedburner:origLink></item>
+		<item>
+		<title>Crunch time</title>
+		<link>http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~3/377468428/</link>
+		<comments>http://confusedofcalcutta.com/2008/08/28/crunch-time/#comments</comments>
+		<pubDate>Thu, 28 Aug 2008 20:56:50 +0000</pubDate>
+		<dc:creator>JP</dc:creator>
+		
+		<category><![CDATA[Four pillars ]]></category>
+
+		<guid isPermaLink="false">http://confusedofcalcutta.com/?p=1309</guid>
+		<description><![CDATA[I had some unusual habits when I was young. [Didn't we all?] No, really.
+I ate cockroaches. Apparently. This was when I was crawling around on all fours in Calcutta. Every now and then, my parents would hear a tell-tale crunching sound, come running to wherever I was, only to see the last vestiges of cockroach [...]]]></description>
+			<content:encoded><![CDATA[<p>I had some unusual habits when I was young. [Didn't we all?] No, really.</p>
+<p>I ate cockroaches. Apparently. This was when I was crawling around on all fours in Calcutta. Every now and then, my parents would hear a tell-tale crunching sound, come running to wherever I was, only to see the last vestiges of cockroach disappear down my gullet. A one-man roach exterminator. Or so I&#8217;m told.</p>
+<p>Old habits die hard.</p>
+<p>Which may be one of the reasons I found <a href="http://www.catherinechalmers.com/home.cfm">Catherine Chalmers&#8217; work</a> extraordinarily compelling. I was blown away by <a href="http://www.catherinechalmers.com/videos.cfm">Safari</a> as shown in the latest issue of <a href="http://www.wholphindvd.com/">Wholphin</a>, and have ordered both her books. Amazing stuff.</p>
+<p>Incidentally, when I was a few years older, my father taught me these lines:</p>
+<blockquote><p>Algy met a bear; the bear met Algy; the bear was bulgy; the bulge was Algy.</p></blockquote>
+<p>A whole ecosystem encapsulated in four sentences? Strange how memory works. Because that&#8217;s what came to mind when I saw this photo on Catherine&#8217;s site, and the two that followed.</p>
+<p><a href="http://confusedofcalcutta.com/wp-content/uploads/2008/08/008.jpg"><img class="aligncenter size-full wp-image-1310" title="008" src="http://confusedofcalcutta.com/wp-content/uploads/2008/08/008.jpg" alt="" width="490" height="327" /></a></p>
+<p>Go take a look at the site, it has some wonderful stuff.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=Dv0H4K"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=Dv0H4K" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=L6uoTk"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=L6uoTk" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=epZIAK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=epZIAK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=R5NymK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=R5NymK" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~4/377468428" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://confusedofcalcutta.com/2008/08/28/crunch-time/feed/</wfw:commentRss>
+		<feedburner:origLink>http://confusedofcalcutta.com/2008/08/28/crunch-time/</feedburner:origLink></item>
+		<item>
+		<title>Musing about Blazinge Fellows</title>
+		<link>http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~3/375418073/</link>
+		<comments>http://confusedofcalcutta.com/2008/08/26/musing-about-blazinge-fellows/#comments</comments>
+		<pubDate>Tue, 26 Aug 2008 17:48:25 +0000</pubDate>
+		<dc:creator>JP</dc:creator>
+		
+		<category><![CDATA[Four pillars ]]></category>
+
+		<guid isPermaLink="false">http://confusedofcalcutta.com/?p=1306</guid>
+		<description><![CDATA[Can&#8217;t afford to go to Burning Man? Don&#8217;t have a ticket? Not your cup of tea? Worry not, help is at hand.
+[Thanks to Mary Harrington, the Chief Community Officer at School of Everything, who brought this to my attention via Twitter].
+It&#8217;s not every day you come across a Chaucerian blog; I&#8217;d seen it some years [...]]]></description>
+			<content:encoded><![CDATA[<p>Can&#8217;t afford to go to <a href="http://www.burningman.com/">Burning Man</a>? Don&#8217;t have a ticket? Not your cup of tea? Worry not, help is at hand.</p>
+<p>[Thanks to <a href="http://schoolofeverything.com/about/team/mary">Mary Harrington</a>, the Chief Community Officer at <a href="http://schoolofeverything.com/">School of Everything</a>, who brought this to my attention via Twitter].</p>
+<p>It&#8217;s not every day you come across a <a href="http://houseoffame.blogspot.com/">Chaucerian blog</a>; I&#8217;d seen it some years ago, but my bookmark stopped working and I&#8217;d assumed it was defunct.</p>
+<p><a href="http://confusedofcalcutta.com/wp-content/uploads/2008/08/cranmer_window_christ_church.jpg"><img class="aligncenter size-full wp-image-1307" title="cranmer_window_christ_church" src="http://confusedofcalcutta.com/wp-content/uploads/2008/08/cranmer_window_christ_church.jpg" alt="" width="346" height="852" /></a></p>
+<p>But it&#8217;s back with a bang. <a href="http://houseoffame.blogspot.com/2008/08/new-order-hot-newes-on-blazinge-fellow.html">Blazinge Fellow</a>. Read all about it.</p>
+<p>And I couldn&#8217;t help but think: Maybe we have another opportunity to &#8220;shift time&#8221;, but this time via the Web. Maybe we could translate texts from time X to time Y, backwards or forwards in time, but in the same language. I can see a few places where such a facility would be useful. Any views?</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=MG1UsK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=MG1UsK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=oRCoZk"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=oRCoZk" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=SJZVWK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=SJZVWK" border="0"></img></a> <a href="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?a=I4yzkK"><img src="http://feeds.feedburner.com/~f/ConfusedOfCalcutta?i=I4yzkK" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ConfusedOfCalcutta/~4/375418073" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://confusedofcalcutta.com/2008/08/26/musing-about-blazinge-fellows/feed/</wfw:commentRss>
+		<feedburner:origLink>http://confusedofcalcutta.com/2008/08/26/musing-about-blazinge-fellows/</feedburner:origLink></item>
+	</channel>
+</rss>

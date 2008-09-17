@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- generator="wordpress/2.1.2" -->
+<rss version="0.92">
+<channel>
+	<title>Kerry Buckley</title>
+	<link>http://www.kerrybuckley.org</link>
+	<description>What's the simplest thing that could possibly go wrong?</description>
+	<lastBuildDate>Mon, 18 Aug 2008 09:01:54 +0000</lastBuildDate>
+	<docs>http://backend.userland.com/rss092</docs>
+	<language>en</language>
+	
+	<item>
+		<title>Agile in 25 Words</title>
+		<description>I realise I'm a bit late to the party, but following the example of JP, psd, Eastmad and Casablanca, I thought I'd have a stab at the 25 words challenge. Not feeling sufficiently inspired to come up with anyhing original and profound, here's my attempt at boiling the principles of ...</description>
+		<link>http://www.kerrybuckley.org/2008/07/22/agile-in-25-words/</link>
+			</item>
+	<item>
+		<title>Avoiding Merge Commits in Git</title>
+		<description>[Update, 18/8/2008]  If you've shared the branch with anyone else, or are pushing it to a clone of the repository, do not rebase, but use merge instead. From the man page:
+
+
+When you rebase a branch, you are changing its history in a way that will cause problems for anyone ...</description>
+		<link>http://www.kerrybuckley.org/2008/06/18/avoiding-merge-commits-in-git/</link>
+			</item>
+	<item>
+		<title>Defending Ruby and Rails in the Enterprise</title>
+		<description>I consider myself fortunate that the previous two projects I worked on (the BT Web21C Portal and Mojo) were Rails-based (actually it wan't just luck in the former case, as I had a part in selecting the framework). I love the expressiveness and flexibility of the Ruby language, the power ...</description>
+		<link>http://www.kerrybuckley.org/2008/06/12/defending-ruby-and-rails-in-the-enterprise/</link>
+			</item>
+	<item>
+		<title>Git quote of the day</title>
+		<description>From Amy Hoy on Slash7:
+If svn is your sometimes catankerous but serviceable steed, git is like a chimera crossed with a unicorn with handy built-in saddle bags plus a sword.
+
+[tags]git, svn, quote, qotd, slash7[/tags] </description>
+		<link>http://www.kerrybuckley.org/2008/04/25/git-quote-of-the-day/</link>
+			</item>
+	<item>
+		<title>On being beaten with carrots</title>
+		<description>Traditional approaches to motivation tend to fall into one of two camps: the carrot ("do this and you'll be rewarded") or the stick ("do this or you'll suffer the consequences").
+
+I guess I'm fortunate to work for a company (and in a country) where by and large there isn't a culture ...</description>
+		<link>http://www.kerrybuckley.org/2008/04/22/on-being-beaten-with-carrots/</link>
+			</item>
+	<item>
+		<title>Python II: Fibonacci Sequence</title>
+		<description>Tim's second exercise (here's the first):
+
+Write a recursive function that calculates the value of Fibonacci numbers. These are your acceptance criteria:
+
+	Calculating fib(250) must return 7896325826131730509282738943634332893686268675876375
+	The function must use recursion. No intermediary data structures, etc.
+	The implementation must be written in pure python &#8211; no C extension modules, that's cheating.
+	The function must ...</description>
+		<link>http://www.kerrybuckley.org/2008/04/17/python-ii-fibonacci-sequence/</link>
+			</item>
+	<item>
+		<title>First stab at Python</title>
+		<description> "It is an ex parrot. It has ceased to be."
+
+No, of course not. I'm talking about the other Python. Not the one with the silly walks, dead parrot and singing lumberjacks, but the one with the idiosyncratic approach to whitespace.
+
+One of the APIs available for the Web21C SDK is ...</description>
+		<link>http://www.kerrybuckley.org/2008/04/14/first-stab-at-python/</link>
+			</item>
+	<item>
+		<title>What&#8217;s your command-line top ten?</title>
+		<description>Here's mine:
+
+~ $ history&#124;awk '{a[$2]++} END{for(i in a){printf "%5d\t%s\n",a[i],i}}'&#124;sort -rn&#124;head
+  232	git
+   82	cd
+   30	ls
+   20	sudo
+   18	rm
+   13	./script/server
+   12	mate
+   11	rake
+    7	vi
+    7	ssh
+
+Probably slightly skewed by the fact that I was doing ...</description>
+		<link>http://www.kerrybuckley.org/2008/04/11/whats-your-command-line-top-ten/</link>
+			</item>
+	<item>
+		<title>InfoWorld Article on BT and Agile</title>
+		<description>Some time last year I was interviewed by Tom Hoffman for Infoworld, as part of a piece he was writing on BT's (ongoing) transition to an agile software development model. Here's the article:
+
+BT: A case study in agile programming
+ </description>
+		<link>http://www.kerrybuckley.org/2008/03/12/infoworld-article-on-bt-and-agile/</link>
+			</item>
+	<item>
+		<title>Domain Problems</title>
+		<description>As you may have noticed, kerrybuckley.com has been down for a few weeks now. This was mainly due to incompetence and laziness on my part causing the registration to expire (the hosting's still fine), but so far the registrar has yet to respond to e-mails and messages on their 75p/min ...</description>
+		<link>http://www.kerrybuckley.org/2008/02/20/domain-problems/</link>
+			</item>
+</channel>
+</rss>
+
+<!-- Dynamic Page Served (once) in 0.520 seconds -->
