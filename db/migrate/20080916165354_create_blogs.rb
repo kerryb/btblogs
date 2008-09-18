@@ -1,7 +1,7 @@
 class CreateBlogs < ActiveRecord::Migration
   def self.up
     create_table :blogs do |t|
-      t.string :html_uri, :feed_uri
+      t.string :title, :html_uri, :feed_uri
     end
   end
 

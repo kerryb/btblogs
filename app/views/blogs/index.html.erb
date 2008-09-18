@@ -1,0 +1,8 @@
+<html>
+  <body>
+    <%- @entries.each do |entry| %>
+      <h4><%= entry.title %></h4>
+      <p>From <%= entry.blog.title %></p>
+    <%- end %>
+  </body>
+</html>
