@@ -28,6 +28,7 @@ Rails::Initializer.run do |config|
   config.gem 'feed-normalizer'
   config.gem 'simple-rss'
   config.gem 'hoe'
+  config.gem 'rspec-rails', :lib => 'spec'
 
   # Only load the plugins named here, in the order given. By default, all plugins 
   # in vendor/plugins are loaded in alphabetical order.
