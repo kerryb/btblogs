@@ -2,3 +2,4 @@ schema.rb
 log/**
 tmp/pids/*
 database.yml
+db/*.sqlite3
