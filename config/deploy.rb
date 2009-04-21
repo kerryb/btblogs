@@ -5,6 +5,7 @@ set :branch, 'master'
 set :user, 'btblogs'
 set :deploy_to, "/home/#{user}/#{application}"
 set :deploy_via, :remote_cache
+set :git_shallow_clone, 1 
 set :use_sudo, false
 
 host = 'barranca.dreamhost.com'
