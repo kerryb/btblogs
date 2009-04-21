@@ -12,7 +12,7 @@ body {
   line-height:1.5;
   font-size:75%;
   color:#222;
-  background:#fff;
+  background:#eee;
   font-family:verdana, helvetica, arial, sans-serif;
 }
 table {
@@ -32,7 +32,7 @@ a img {
 blockquote {
   padding:5px;
   margin:5px 5px 5px 20px;
-  background:#ffd;
+  background:#eee;
 }
 
 div.item {
@@ -42,7 +42,7 @@ div.item {
 div.avatar {
   float:left;
   padding:5px 30px 5px 0;
-  background-image:url('/images/tail.png');
+  background-image:url('/images/tail.gif');
   background-repeat:no-repeat;
   background-position:top right; 
   position:relative;
@@ -51,23 +51,27 @@ div.avatar {
   div.avatar img {
     width:80px;
     height:80px;
+    border:1px solid #00a;
   }
 
 div.post {
   border:1px solid #00a;
-  margin-left:110px;
+  margin-left:112px;
   min-height:90px;
+  background:#fff;
 }
   div.post h1 {
     font-size:1.2em;
     font-weight:bold;
+    color:#00a;
+    background:#eef;
     padding: 2px 5px;
   }
   div.post h2 {
     font-size:0.75em;
-    font-weight:bold;
+    font-weight:normal;
     color:#fff;
-    background:#00a;
+    background:#88f;
     padding: 2px 5px;
   }
   div.post div.content {

@@ -3,5 +3,5 @@ log/**
 tmp/pids/*
 database.yml
 db/*.sqlite3
-**/*.swp
+*.swp
 TAGS
