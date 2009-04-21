@@ -39,14 +39,23 @@ div.item {
   margin:10px;
 }
 
-div.avatar {
+div.odd div.avatar {
   float:left;
   padding:5px 30px 5px 0;
-  background-image:url('/images/tail.gif');
+  background-image:url('/images/tail-left.gif');
   background-repeat:no-repeat;
   background-position:top right; 
   position:relative;
   left:1px;
+}
+div.even div.avatar {
+  float:right;
+  padding:5px 0 5px 30px;
+  background-image:url('/images/tail-right.gif');
+  background-repeat:no-repeat;
+  background-position:top left; 
+  position:relative;
+  left:-1px;
 }
   div.avatar img {
     width:80px;
@@ -56,10 +65,15 @@ div.avatar {
 
 div.post {
   border:1px solid #00a;
-  margin-left:112px;
   min-height:90px;
   background:#fff;
 }
+  div.odd div.post {
+    margin-left:112px;
+  }
+  div.even div.post {
+    margin-right:112px;
+  }
   div.post h1 {
     font-size:1.2em;
     font-weight:bold;
