@@ -39,24 +39,25 @@ div.item {
   margin:10px;
 }
 
-div.odd div.avatar {
-  float:left;
-  padding:5px 30px 5px 0;
-  background-image:url('/images/tail-left.gif');
+div.avatar {
+  padding:0;
   background-repeat:no-repeat;
-  background-position:top right; 
   position:relative;
-  left:1px;
 }
-div.even div.avatar {
-  float:right;
-  padding:5px 0 5px 30px;
-  background-image:url('/images/tail-right.gif');
-  background-repeat:no-repeat;
-  background-position:top left; 
-  position:relative;
-  left:-1px;
-}
+  div.odd div.avatar {
+    float:left;
+    padding-right:30px;
+    background-image:url('/images/tail-left.gif');
+    background-position:top right; 
+    left:1px;
+  }
+  div.even div.avatar {
+    float:right;
+    padding-left:30px;
+    background-image:url('/images/tail-right.gif');
+    background-position:top left; 
+    left:-1px;
+  }
   div.avatar img {
     width:80px;
     height:80px;
@@ -65,7 +66,7 @@ div.even div.avatar {
 
 div.post {
   border:1px solid #00a;
-  min-height:90px;
+  min-height:80px;
   background:#fff;
 }
   div.odd div.post {
@@ -91,3 +92,6 @@ div.post {
   div.post div.content {
     margin:5px;
   }
+    div.post p {
+      margin-top:0.5em;
+    }
