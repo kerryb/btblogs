@@ -14,7 +14,7 @@ body {
   line-height:1.5;
   font-size:75%;
   color:#222;
-  background:#eee;
+  background-color:#eee;
   font-family:verdana, helvetica, arial, sans-serif;
 }
 table {
@@ -32,24 +32,56 @@ a img {
   border:none;
 }
 
-/* Site specific below here */
-
-blockquote {
-  padding:5px;
-  margin:5px 5px 5px 20px;
-  background:#eee;
-}
+/* Site-specific below here */
 
 div#header {
-  background:#ccc;
+  background-color:#ccc;
   margin:0;
-  padding:10px;
-  height:50px;
+  padding:20px 40px 15px 40px;
   border-bottom:5px solid #888;
 }
 
-div#menu {
+div#menu, div#feeds {
+  height:38px;
+  background-repeat:no-repeat;
+  background-position:left;
+  float:right;
+  margin:0 5px;
+  padding:0;
 }
+div#menu {
+  background-image:url('/images/lozenge-left.gif');
+}
+div#feeds {
+  background-image:url('/images/lozenge-left-feeds.gif');
+  padding-left:45px;
+}
+  div#menu ul, div#feeds ul {
+    display:block;
+    height:38px;
+    margin:0;
+    padding:0 5px;
+    background-image:url('/images/lozenge-right.gif');
+    background-repeat:no-repeat;
+    background-position:right;
+  }
+  div#menu li, div#feeds li {
+    float:left;
+    list-style-type:none;
+    margin:0;
+    padding:5px;
+  }
+  div#menu a, div#feeds a {
+    display:block;
+    text-decoration:none;
+    padding:5px;
+    margin:0;
+    color:#444;
+  }
+  div#menu a:hover, div#feeds a:hover {
+    color:#00a;
+    text-decoration:underline;
+  }
 
 div.item {
   margin:10px;
@@ -84,7 +116,7 @@ div.avatar {
 
 div.post {
   min-height:80px;
-  background:#fff;
+  background-color:#fff;
   border:1px solid #00a;
 }
   div.odd div.post {
@@ -98,14 +130,14 @@ div.post {
     font-weight:bold;
     padding: 2px 5px;
     color:#00a;
-    background:#eef;
+    background-color:#eef;
   }
   div.post h2 {
     font-size:0.75em;
     font-weight:normal;
     color:#fff;
     padding: 2px 5px;
-    background:#88f;
+    background-color:#88f;
   }
   div.post div.content {
     margin:5px;
@@ -113,3 +145,11 @@ div.post {
     div.post p {
       margin-top:0.5em;
     }
+
+/* Styles used within posts */
+
+blockquote {
+  padding:5px;
+  margin:5px 5px 5px 20px;
+  background-color:#eee;
+}
