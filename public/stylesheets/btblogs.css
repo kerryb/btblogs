@@ -1,3 +1,5 @@
+/* Basics stolen from Blueprint CSS */
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin:0;
   padding:0;
@@ -29,10 +31,24 @@ table, td, th {
 a img {
   border:none;
 }
+
+/* Site specific below here */
+
 blockquote {
   padding:5px;
   margin:5px 5px 5px 20px;
   background:#eee;
+}
+
+div#header {
+  background:#ccc;
+  margin:0;
+  padding:10px;
+  height:50px;
+  border-bottom:5px solid #888;
+}
+
+div#menu {
 }
 
 div.item {
@@ -61,33 +77,35 @@ div.avatar {
   div.avatar img {
     width:80px;
     height:80px;
-    border:1px solid #00a;
+    border-color:#bbb;
+    border-style:solid;
+    border-width:1px 2px 2px 1px;
   }
 
 div.post {
-  border:1px solid #00a;
   min-height:80px;
   background:#fff;
+  border:1px solid #00a;
 }
   div.odd div.post {
-    margin-left:112px;
+    margin-left:113px;
   }
   div.even div.post {
-    margin-right:112px;
+    margin-right:113px;
   }
   div.post h1 {
     font-size:1.2em;
     font-weight:bold;
+    padding: 2px 5px;
     color:#00a;
     background:#eef;
-    padding: 2px 5px;
   }
   div.post h2 {
     font-size:0.75em;
     font-weight:normal;
     color:#fff;
-    background:#88f;
     padding: 2px 5px;
+    background:#88f;
   }
   div.post div.content {
     margin:5px;
