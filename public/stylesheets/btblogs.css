@@ -35,9 +35,10 @@ a img {
 /* Site-specific below here */
 
 div#header {
-  background-color:#ccc;
+  background:#ccc url('/images/btblogs.png') no-repeat left;
   margin:0;
-  padding:20px 40px 15px 40px;
+  padding:0;
+  height:74px;
   border-bottom:5px solid #888;
 }
 
@@ -46,7 +47,7 @@ div#menu, div#feeds {
   background-repeat:no-repeat;
   background-position:left;
   float:right;
-  margin:0 5px;
+  margin:18px 20px 0 0;
   padding:0;
 }
 div#menu {
