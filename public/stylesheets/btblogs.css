@@ -42,6 +42,28 @@ div#header {
   border-bottom:5px solid #888;
 }
 
+div#blogs {
+  width:100px;
+  position:absolute;
+  top:79px;
+  left:0px;
+  padding:5px;
+  padding-bottom:5000px;
+  margin-bottom:-5000px;
+}
+  div#blogs li {
+    list-style-type:none;
+  }
+
+div#posts {
+  border-left:1px solid #888;
+  position:absolute;
+  top:79px;
+  left:116px;
+  margin:0;
+  padding:0;
+}
+
 div#menu, div#feeds {
   height:38px;
   background-repeat:no-repeat;
