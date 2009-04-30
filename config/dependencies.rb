@@ -1,0 +1,5 @@
+dependency 'feed-normalizer', '1.5.1'
+dependency 'simple-rss', '1.2'
+dependency 'rspec-rails', '1.2.4', :require_as => false, :except => 'production'
+dependency 'cucumber', '0.3.0', :except => 'production'
+dependency 'webrat', '0.4.3', :except => 'production'
