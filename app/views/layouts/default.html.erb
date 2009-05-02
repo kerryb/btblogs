@@ -1,11 +1,31 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <title>BT Blogs &mdash; Coming Soon</title>
+    <title>BT Blogs</title>
+    <link rel="stylesheet" href="/stylesheets/btblogs.css" type="text/css" />
+    <!--[if IE]><link rel="stylesheet" href="stylesheets/ie.css" type="text/css" media="screen, projection" /><![endif]-->
   </head>
   <body>
-    <%= yield %>
+    <div id="header">
+      <div id="menu">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Add blog</a></li>
+        </ul>
+      </div>
+      <div id="feeds">
+        <ul>
+          <li><a href="#">RSS</a></li>
+          <li><a href="#">Atom</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="blogs">
+    </div>
+    <div id="posts">
+      <%= yield %>
+    </div>
   </body>
 </html>
