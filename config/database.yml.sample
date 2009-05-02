@@ -1,0 +1,27 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  database: btblogs_development
+  pool: 5
+  username: root
+  password:
+  host: localhost
+
+test:
+  adapter: mysql
+  encoding: utf8
+  database: btblogs_test
+  pool: 5
+  username: root
+  password:
+  host: localhost
+
+production:
+  adapter: mysql
+  encoding: utf8
+  database: btblogs_production
+  pool: 5
+  username: root
+  password: 
+  host: localhost
+  pool: 5
