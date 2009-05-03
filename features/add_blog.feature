@@ -5,8 +5,8 @@ Story: Add a new blog to the list
     And I follow "Add blog"
 
   Scenario: Successfully adding a blog
-    When I fill in "Name" with "Fred Bloggs"
-    And I fill in "E-mail address" with "fred.bloggs@bt.com"
+    When I fill in "Your name" with "Fred Bloggs"
+    And I fill in "Your e-mail address" with "fred.bloggs@bt.com"
     And I fill in "Blog URL" with "http://blog.fredbloggs.com"
-    And I press "Add"
+    And I press "Save"
     Then I should see "You should receive an e-mail shortly"
