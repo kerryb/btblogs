@@ -11,6 +11,7 @@ Story: Add a new blog to the list
     And I fill in "Feed URL" with "http://blog.fredbloggs.com/feed"
     And I press "Save"
     Then I should see "You should receive an e-mail shortly"
+    And I should not see "Fred Blogs"
 
   Scenario: Form submission cancelled
     When I press "Cancel"
