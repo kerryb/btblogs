@@ -65,13 +65,34 @@ div#blogs {
     list-style-type:none;
   }
 
-div#posts {
+div#main {
   position:absolute;
   top:79px;
   left:116px;
   margin:0;
   padding:0;
 }
+
+div#notice {
+  margin:9px;
+  padding:9px;
+  border:1px solid #ff0;
+  background-color: #ff8;
+}
+
+div.errorExplanation {
+  margin:9px;
+  padding:9px;
+  border:1px solid #c00;
+  background-color: #fee;
+  color:#c00;
+}
+  div.errorExplanation h2 {
+    font-weight:bold;
+  }
+  div.errorExplanation ul {
+    margin-left:18px;
+  }
 
 div#menu, div#feeds {
   height:38px;

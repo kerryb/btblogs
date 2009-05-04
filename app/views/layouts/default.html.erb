@@ -26,7 +26,10 @@
     </div>
     <div id="blogs">
     </div>
-    <div id="posts">
+    <div id="main">
+      <%- if flash[:notice] %>
+        <div id="notice"><%= flash[:notice] %></div>
+      <%- end %>
       <%= yield %>
     </div>
   </body>

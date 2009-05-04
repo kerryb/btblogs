@@ -3,7 +3,7 @@
 
 class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
-  
+
   layout 'default'
 
   # See ActionController::RequestForgeryProtection for details
