@@ -12,6 +12,7 @@ Story: Add a new blog to the list
     And I press "Save"
     Then I should see "You should receive an e-mail shortly"
     And I should not see "Fred Blogs"
+    And "fred.bloggs@bt.com" should receive 1 email
 
   Scenario: Form submission cancelled
     When I press "Cancel"

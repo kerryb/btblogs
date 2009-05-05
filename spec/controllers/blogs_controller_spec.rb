@@ -17,18 +17,17 @@ describe BlogsController do
 
   describe '#create' do
     before do
-      @params = stub :params
-      @blog = mock_model Blog, :save => true
-      Blog.stub!(:new).and_return @blog
+      @email = 'fred.bloggs@bt.com'
+      @params = {'blog' => {'owner_email' => @email}}
     end
 
     def do_post
-      post :create, :blog => params
+      post :create, @params
     end
 
     describe 'when the submission was cancelled' do
       def do_post
-        post :create, :commit => 'cancel'
+        post :create, @params.merge('commit' => 'cancel')
       end
 
       it 'should redirect back to the home page' do
@@ -42,19 +41,22 @@ describe BlogsController do
       end
     end
 
-    it 'should create a new blog record' do
-      Blog.should_receive(:new).with params
-      do_post
-    end
-
-    it 'should be attempt to save the record' do
-      @blog.should_receive(:save)
+    it 'should create and save a new blog record' do
+      blog = mock_model Blog
+      Blog.stub!(:new).with(@params['blog']).and_return blog
+      blog.should_receive(:save)
       do_post
     end
 
     describe 'when record creation fails' do
       before do
-        @blog.stub!(:save).and_return false
+        @blog = mock_model Blog, :save => false
+        Blog.stub!(:new).and_return @blog
+      end
+
+      it 'should not send a confirmation e-mail' do
+        ConfirmationMailer.should_not_receive :deliver_confirmation
+        do_post
       end
 
       it 'should re-render the new blog form' do
@@ -70,12 +72,18 @@ describe BlogsController do
 
     describe 'when record creation succeeds' do
       before do
-        @blog.stub!(:save).and_return true
+        Blog.stub!(:new).and_return mock_model(Blog, :save => true)
+        ConfirmationMailer.stub! :deliver_confirmation
       end
 
       it 'should redirect to the home page' do
         do_post
         response.should redirect_to(root_url)
+      end
+
+      it 'should send a confirmation e-mail' do
+        ConfirmationMailer.should_receive(:deliver_confirmation).with(@email)
+        do_post
       end
 
       it 'should put a message in the flash' do
