@@ -25,6 +25,7 @@
       </div>
     </div>
     <div id="blogs">
+      <%= render :partial => '/blogs/link', :collection => @blogs %>
     </div>
     <div id="main">
       <%- if flash[:notice] %>

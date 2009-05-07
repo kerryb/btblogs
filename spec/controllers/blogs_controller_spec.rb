@@ -72,7 +72,8 @@ describe BlogsController do
 
     describe 'when record creation succeeds' do
       before do
-        Blog.stub!(:new).and_return mock_model(Blog, :save => true)
+        @blog = mock_model(Blog, :save => true)
+        Blog.stub!(:new).and_return @blog
         ConfirmationMailer.stub! :deliver_confirmation
       end
 
@@ -82,13 +83,41 @@ describe BlogsController do
       end
 
       it 'should send a confirmation e-mail' do
-        ConfirmationMailer.should_receive(:deliver_confirmation).with(@email)
+        ConfirmationMailer.should_receive(:deliver_confirmation).with(@blog)
         do_post
       end
 
       it 'should put a message in the flash' do
         do_post
         flash[:notice].should == 'Thank you for adding your blog. You should receive an e-mail shortly, with a confirmation link.'
+      end
+    end
+  end
+
+  describe '#confirm' do
+    describe 'when the code matches' do
+      before do
+        @blog = Factory(:blog)
+      end
+
+      def do_get
+        get :confirm, :id => @blog.id, :code => 456
+      end
+
+      it 'should mark the blog as confirmed' do
+        do_get
+        @blog.reload
+        @blog.confirmed.should be_true
+      end
+
+      it 'should redirect to the home page' do
+        do_get
+        response.should redirect_to(root_url)
+      end
+
+      it 'should put a message in the flash' do
+        do_get
+        flash[:notice].should == 'Thank you, your blog has now been confirmed.'
       end
     end
   end

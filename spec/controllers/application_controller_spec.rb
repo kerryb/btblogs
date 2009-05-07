@@ -17,4 +17,12 @@ describe ApplicationController do
     get :foo
     response.layout.should == 'layouts/default'
   end
+
+  it 'should assign a list of confirmed blogs for the view' do
+    confirmed_blog_1 = Factory(:confirmed_blog)
+    unconfirmed_blog = Factory(:blog)
+    confirmed_blog_2 = Factory(:confirmed_blog)
+    get :foo
+    assigns[:blogs].should == [confirmed_blog_1, confirmed_blog_2]
+  end
 end
