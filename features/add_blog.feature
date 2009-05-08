@@ -11,13 +11,17 @@ Story: Add a new blog to the list
   Scenario: Missing mandatory fields
     When I press "Save"
     Then I should see "Owner name can't be blank"
-    Then I should see "Owner email can't be blank"
-    Then I should see "Html uri can't be blank"
-    Then I should see "Feed uri can't be blank"
+    And I should see "Owner email can't be blank"
+    And I should see "Html uri can't be blank"
+    And I should see "Feed uri can't be blank"
 
   Scenario: Non-BT e-mail address
-    When I get round to it
-    Then I should start again here
+    When I fill in "Your name" with "Fred Bloggs"
+    And I fill in "Your e-mail address" with "fred.bloggs@not-bt.com"
+    And I fill in "Blog URL" with "http://blog.fredbloggs.com"
+    And I fill in "Feed URL" with "http://blog.fredbloggs.com/feed"
+    And I press "Save"
+    Then I should see "Owner email must be @bt.com"
 
   Scenario: Successfully adding a blog
     When I fill in "Your name" with "Fred Bloggs"
