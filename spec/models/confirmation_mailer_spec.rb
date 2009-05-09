@@ -4,7 +4,7 @@ describe ConfirmationMailer do
   describe 'sending confirmation' do
     before do
       @email = 'fred.bloggs@bt.com'
-      @blog = mock_model Blog, :owner_email => @email
+      @blog = mock_model Blog, :owner_email => @email, :confirmation_code => '123'
     end
 
     def create_mail
@@ -23,8 +23,9 @@ describe ConfirmationMailer do
       create_mail.subject.should == 'BTBlo.gs Confirmation'
     end
 
-    it "should show the registered blog's URL" do
-      create_mail.body.should =~ %r(/blogs/#{@blog.id}/confirm)
+    it "should show the confirmation URL" do
+      puts create_mail.body
+      create_mail.body.should =~ %r(/blogs/confirm/#{@blog.confirmation_code})
     end
   end
 end

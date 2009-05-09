@@ -42,3 +42,12 @@ Story: Add a new blog to the list
     And I should see "Fred Bloggs"
 
   Scenario: Attempting confirmation with the wrong code
+    When I fill in "Your name" with "Fred Bloggs"
+    And I fill in "Your e-mail address" with "fred.bloggs@bt.com"
+    And I fill in "Blog URL" with "http://blog.fredbloggs.com"
+    And I fill in "Feed URL" with "http://blog.fredbloggs.com/feed"
+    And I press "Save"
+    And I go to the wrong confirmation link
+    Then I should be on the homepage
+    And I should see "Sorry, that confirmation code was not recognised."
+    And I should not see "Fred Bloggs"

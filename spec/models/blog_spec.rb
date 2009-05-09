@@ -5,6 +5,7 @@ describe Blog do
   it { should have_db_column(:owner_email).of_type(:string) }
   it { should have_db_column(:html_uri).of_type(:string) }
   it { should have_db_column(:feed_uri).of_type(:string) }
+  it { should have_db_column(:confirmation_code).of_type(:string) }
   it { should have_db_column(:confirmed).of_type(:boolean) }
   it { should validate_presence_of(:owner_name) }
   it { should validate_presence_of(:owner_email) }
@@ -15,4 +16,13 @@ describe Blog do
   it { should_not allow_value('bt.com@not-bt.com').for(:owner_email).with_message('must be @bt.com') }
   it { should_not allow_mass_assignment_of(:confirmed) }
   it { should have_named_scope(:confirmed).finding(:conditions => {:confirmed => true}) }
+
+  it 'should set a random confirmation_code on each save' do
+    blog = Factory :blog
+    code = blog.confirmation_code
+    code.should =~ /^\w{20}$/
+    blog.save
+    blog.confirmation_code.should =~ /^\w{20}$/
+    blog.confirmation_code.should_not == code
+  end
 end

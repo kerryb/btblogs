@@ -2,6 +2,6 @@ Thank you for registering your blog on http://btblo.gs
 
 Please use the following URL to confirm registration:
 
-<%= confirm_url(@blog.id) %>
+<%= confirm_url(:confirmation_code => @blog.confirmation_code) %>
 
 If you did not register your blog, please ignore this message.

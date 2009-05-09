@@ -97,11 +97,11 @@ describe BlogsController do
   describe '#confirm' do
     describe 'when the code matches' do
       before do
-        @blog = Factory(:blog)
+        @blog = Factory :blog
       end
 
       def do_get
-        get :confirm, :id => @blog.id, :code => 456
+        get :confirm, :confirmation_code => @blog.confirmation_code
       end
 
       it 'should mark the blog as confirmed' do
@@ -118,6 +118,32 @@ describe BlogsController do
       it 'should put a message in the flash' do
         do_get
         flash[:notice].should == 'Thank you, your blog has now been confirmed.'
+      end
+    end
+  
+    describe 'when the code does not match' do
+      before do
+        @blog = Factory :blog, :confirmation_code => '123'
+      end
+
+      def do_get
+        get :confirm, :confirmation_code => 456
+      end
+
+      it 'should not mark the blog as confirmed' do
+        do_get
+        @blog.reload
+        @blog.confirmed.should_not be_true
+      end
+
+      it 'should redirect to the home page' do
+        do_get
+        response.should redirect_to(root_url)
+      end
+
+      it 'should put a message in the flash' do
+        do_get
+        flash[:notice].should == 'Sorry, that confirmation code was not recognised.'
       end
     end
   end
