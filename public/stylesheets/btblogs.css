@@ -14,7 +14,7 @@ body {
   line-height:1.5;
   font-size:75%;
   color:#222;
-  background-color:#eee;
+  background:#eee url('/images/background.png') repeat-y left;
   font-family:verdana, helvetica, arial, sans-serif;
 }
 table {
@@ -34,13 +34,23 @@ a img {
 
 /* Site-specific below here */
 
+fieldset {
+  border:1px dotted #888;
+  margin:9px;
+  padding:9px;
+}
+
 div#header {
-  background:#ccc url('/images/btblogs.png') no-repeat left;
+  background-color:#ccc;
   margin:0;
   padding:0;
   height:74px;
   border-bottom:5px solid #888;
 }
+  div#header img#logo {
+    margin-top:12px;
+    float:left;
+  }
 
 div#blogs {
   width:100px;
@@ -55,14 +65,34 @@ div#blogs {
     list-style-type:none;
   }
 
-div#posts {
-  border-left:1px solid #888;
+div#main {
   position:absolute;
   top:79px;
   left:116px;
   margin:0;
   padding:0;
 }
+
+div#notice {
+  margin:9px;
+  padding:9px;
+  border:1px solid #ff0;
+  background-color: #ff8;
+}
+
+div.errorExplanation {
+  margin:9px;
+  padding:9px;
+  border:1px solid #c00;
+  background-color: #fee;
+  color:#c00;
+}
+  div.errorExplanation h2 {
+    font-weight:bold;
+  }
+  div.errorExplanation ul {
+    margin-left:18px;
+  }
 
 div#menu, div#feeds {
   height:38px;
@@ -151,7 +181,7 @@ div.post {
   div.post h1 {
     font-size:1.2em;
     font-weight:bold;
-    padding: 2px 5px;
+    padding:2px 5px;
     color:#00a;
     background-color:#eef;
   }
@@ -159,7 +189,7 @@ div.post {
     font-size:0.75em;
     font-weight:normal;
     color:#fff;
-    padding: 2px 5px;
+    padding:2px 5px;
     background-color:#88f;
   }
   div.post div.content {

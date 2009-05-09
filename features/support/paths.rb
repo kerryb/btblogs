@@ -13,12 +13,10 @@ module NavigationHelpers
   #
   def path_to(page_name)
     case page_name
-    
     when /the homepage/
       root_path
-    
-    # Add more page name => path mappings here
-    
+    when /the wrong confirmation link/
+      confirm_path :confirmation_code => 'I_am_an_evil_hacker_666'
     else
       raise "Can't find mapping from \"#{page_name}\" to a path.\n" +
         "Now, go and add a mapping in features/support/paths.rb"

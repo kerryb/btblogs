@@ -4,15 +4,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <title>BT Blogs</title>
-    <link rel="stylesheet" href="/stylesheets/btblogs.css" type="text/css" />
-    <!--[if IE]><link rel="stylesheet" href="stylesheets/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+    <%= stylesheet_link_tag 'btblogs' %>
+    <%= stylesheet_link_tag 'semantic_forms' %>
+    <!--[if IE]><%= stylesheet_link_tag 'ie' %><![endif]-->
   </head>
   <body>
     <div id="header">
+      <a href="/"><img id="logo" src="/images/btblogs.png" alt="BT Blogs" /></a>
       <div id="menu">
         <ul>
           <li><a href="#">About</a></li>
-          <li><a href="#">Add blog</a></li>
+          <li><%= link_to 'Add blog', new_blog_path %></li>
         </ul>
       </div>
       <div id="feeds">
@@ -23,8 +25,12 @@
       </div>
     </div>
     <div id="blogs">
+      <%= render :partial => '/blogs/link', :collection => @blogs %>
     </div>
-    <div id="posts">
+    <div id="main">
+      <%- if flash[:notice] %>
+        <div id="notice"><%= flash[:notice] %></div>
+      <%- end %>
       <%= yield %>
     </div>
   </body>

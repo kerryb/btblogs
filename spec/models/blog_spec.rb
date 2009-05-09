@@ -1,12 +1,28 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
 describe Blog do
-  it 'should be an ActiveRecord' do
-    Blog.new.should be_a_kind_of(ActiveRecord::Base)
-  end
-
-  it { should have_db_column(:title).of_type(:string) }
+  it { should have_db_column(:owner_name).of_type(:string) }
   it { should have_db_column(:owner_email).of_type(:string) }
   it { should have_db_column(:html_uri).of_type(:string) }
   it { should have_db_column(:feed_uri).of_type(:string) }
+  it { should have_db_column(:confirmation_code).of_type(:string) }
+  it { should have_db_column(:confirmed).of_type(:boolean) }
+  it { should validate_presence_of(:owner_name) }
+  it { should validate_presence_of(:owner_email) }
+  it { should validate_presence_of(:html_uri) }
+  it { should validate_presence_of(:feed_uri) }
+  it { should allow_value('fred.bloggs@bt.com').for(:owner_email) }
+  it { should_not allow_value('fred.bloggs@not-bt.com').for(:owner_email).with_message('must be @bt.com') }
+  it { should_not allow_value('bt.com@not-bt.com').for(:owner_email).with_message('must be @bt.com') }
+  it { should_not allow_mass_assignment_of(:confirmed) }
+  it { should have_named_scope(:confirmed).finding(:conditions => {:confirmed => true}) }
+
+  it 'should set a random confirmation_code on each save' do
+    blog = Factory :blog
+    code = blog.confirmation_code
+    code.should =~ /^\w{20}$/
+    blog.save
+    blog.confirmation_code.should =~ /^\w{20}$/
+    blog.confirmation_code.should_not == code
+  end
 end
