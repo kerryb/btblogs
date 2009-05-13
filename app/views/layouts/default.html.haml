@@ -1,0 +1,31 @@
+!!! XML
+!!! Strict
+%html{:xmlns => 'http://www.w3.org/1999/xhtml', 'xml:lang' => 'en', :lang => 'lang'}
+  %head
+    %title BT Blogs
+    = stylesheet_link_tag 'btblogs'
+    = stylesheet_link_tag 'semantic_forms'
+    /[if IE]
+      = stylesheet_link_tag 'ie'
+  %body
+    #header
+      %a{:href => '/'}<
+        %img#logo{:src => '/images/btblogs.png', :alt => 'BT Blogs'}
+      #menu
+        %ul
+          %li
+            %a{:href => '#'}> About
+          %li
+            %a{:href => new_blog_path}> Add blog
+      #feeds
+        %ul
+          %li
+            %a{:href => '#'}> RSS
+          %li
+            %a{:href => '#'}> Atom
+    #blogs
+      = render :partial => '/blogs/link', :collection => @blogs
+    #main
+      - if flash[:notice]
+        #notice= flash[:notice]
+      = yield

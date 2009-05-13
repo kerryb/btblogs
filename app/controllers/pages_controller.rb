@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def home
-    render :action => 'home.html.erb'
+    render :action => 'home'
   end
 end
