@@ -24,7 +24,6 @@ describe ConfirmationMailer do
     end
 
     it "should show the confirmation URL" do
-      puts create_mail.body
       create_mail.body.should =~ %r(/blogs/confirm/#{@blog.confirmation_code})
     end
   end
