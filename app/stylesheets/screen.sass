@@ -5,154 +5,172 @@
 
 +blueprint-typography("body.blueprint")
 
+!light_grey = #ccc
+!medium_grey = #888
+!dark_grey = #444
+!light_green = #ff8
+!dark_green = #ff0
+!light_red = #fee
+!dark_red = #c00
+!dark_blue = #00a
+!medium_blue = #88f
+!light_blue = #eef
+
 body.blueprint
   fieldset
-    border: 1px dotted #888
-    margin: 9px
-    padding: 9px
+    :border = 1px dotted !medium_grey
+    :margin 9px
+    :padding 9px
 
   #header
-    background-color: #ccc
-    margin: 0
-    padding: 0
-    height: 74px
-    border-bottom: 5px solid #888
+    :background-color = !light_grey
+    :margin 0
+    :padding 0
+    :height 74px
+    :border-bottom = 5px solid !medium_grey
     img#logo
-      margin-top: 12px
-      float: left
+      :margin-top 12px
+      :float left
 
   #blogs
-    width: 100px
-    position: absolute
-    top: 79px
-    left: 0px
-    padding: 5px
-    padding-bottom: 5000px
-    margin-bottom: -5000px
+    :width 100px
+    :position absolute
+    :top 79px
+    :left 0px
+    :padding 5px
+      :bottom 5000px
+    :margin-bottom -5000px
     li
-      list-style-type: none
+      :list-style-type none
 
   #main
-    position: absolute
-    top: 79px
-    left: 116px
-    margin: 0
-    padding: 0
+    :position absolute
+    :top 79px
+    :left 116px
+    :margin 0
+    :padding 0
 
   #notice
-    margin: 9px
-    padding: 9px
-    border: 1px solid #ff0
-    background-color: #ff8
+    :margin 9px
+    :padding 9px
+    :border = 1px solid !dark_green
+    :background-color = !light_green
 
   .errorExplanation
-    margin: 9px
-    padding: 9px
-    border: 1px solid #c00
-    background-color: #fee
-    color: #c00
+    :margin 9px
+    :padding 9px
+    :border = 1px solid !dark_red
+    :background-color = !light_red
+    :color = !dark_red
     h2
-      font-weight: bold
+      :font-weight bold
     ul
-      margin-left: 18px
+      :margin-left 18px
 
   #menu, #feeds
-    height: 38px
-    background-repeat: no-repeat
-    background-position: left
-    float: right
-    margin: 18px 20px 0 0
-    padding: 0
+    :height 38px
+    :background
+      :repeat no-repeat
+      :position left
+    :float right
+    :margin 18px 20px 0 0
+    :padding 0
 
   #menu
-    background-image: url('/images/lozenge-left.gif')
+    :background-image url('/images/lozenge-left.gif')
 
   #feeds
-    background-image: url('/images/lozenge-left-feeds.gif')
-    padding-left: 45px
+    :background-image url('/images/lozenge-left-feeds.gif')
+    :padding-left 45px
 
   #menu, #feeds
     ul
-      display: block
-      height: 38px
-      margin: 0
-      padding: 0 5px
-      background-image: url('/images/lozenge-right.gif')
-      background-repeat: no-repeat
-      background-position: right
+      :display block
+      :height 38px
+      :margin 0
+      :padding 0 5px
+      :background
+        :image url('/images/lozenge-right.gif')
+        :repeat no-repeat
+        :position right
     li
-      float: left
-      list-style-type: none
-      margin: 0
-      padding: 5px
+      :float left
+      :list-style-type none
+      :margin 0
+      :padding 5px
     a
-      display: block
-      text-decoration: none
-      padding: 5px
-      margin: 0
-      color: #444
-    a:hover
-      color: #00a
-      text-decoration: underline
+      :display block
+      :text-decoration none
+      :padding 5px
+      :margin 0
+      :color = !dark_grey
+      &:hover
+        :color = !dark_blue
+        :text-decoration underline
 
   .item
-    margin: 10px
+    :margin 10px
 
   .avatar
-    padding: 0
-    background-repeat: no-repeat
-    position: relative
+    :padding 0
+    :background-repeat no-repeat
+    :position relative
     img
-      width: 80px
-      height: 80px
-      border-color: #bbb
-      border-style: solid
-      border-width: 1px 2px 2px 1px
+      :width 80px
+      :height 80px
+      :border
+        :color = !medium_grey
+        :style solid
+        :width 1px 2px 2px 1px
 
   .post
-    min-height: 80px
-    background-color: #fff
-    border: 1px solid #00a
+    :min-height 80px
+    :background-color white
+    :border = 1px solid !dark_blue
     h1
-      font-size: 1.2em
-      font-weight: bold
-      padding: 2px 5px
-      color: #00a
-      background-color: #eef
+      :font
+        :size 1.2em
+        :weight bold
+      :padding 2px 5px
+      :color = !dark_blue
+      :background-color = !light_blue
     h2
-      font-size: 0.75em
-      font-weight: normal
-      color: #fff
-      padding: 2px 5px
-      background-color: #88f
+      :font
+        :size 0.75em
+        :weight normal
+      :color white
+      :padding 2px 5px
+      :background-color = !medium_blue
     .content
-      margin: 5px
+      :margin 5px
     p
-      margin-top: 0.5em
+      :margin-top 0.5em
 
   .odd
     .avatar
-      float: left
-      padding-right: 30px
-      background-image: url('/images/tail-left.gif')
-      background-position: top right
-      left: 1px
+      :float left
+      :padding-right 30px
+      :background
+        :image url('/images/tail-left.gif')
+        :position top right
+      :left 1px
     .post
-      margin-left: 113px
+      :margin-left 113px
 
   .even
     .avatar
-      float: right
-      padding-left: 30px
-      background-image: url('/images/tail-right.gif')
-      background-position: top left
-      left: -1px
+      :float right
+      :padding-left 30px
+      :background
+        :image url('/images/tail-right.gif')
+        :position top left
+      :left -1px
     .post
-      margin-right: 113px
+      :margin-right 113px
 
   / Styles used within posts
 
   blockquote
-    padding: 5px
-    margin: 5px 5px 5px 20px
-    background-color: #eee
+    :padding 5px
+    :margin 5px 5px 5px 20px
+    :background-color = !light_grey
