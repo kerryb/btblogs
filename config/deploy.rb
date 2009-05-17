@@ -48,3 +48,14 @@ namespace :db do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
   end
 end
+
+desc "Upgrade the app"
+task :upgrade do
+  deploy.update_code
+  deploy.web.disable
+  deploy.symlink
+  deploy.migrate
+  deploy.restart
+  deploy.web.enable
+  deploy.cleanup
+end
