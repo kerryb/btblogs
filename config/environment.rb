@@ -25,8 +25,6 @@ Rails::Initializer.run do |config|
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "aws-s3", :lib => "aws/s3"
-  config.gem 'feed-normalizer', :version => '1.5.1'
-  config.gem 'simple-rss', :version => '1.2'
   config.gem 'haml-edge', :version => '2.1.3', :lib => 'haml'
   config.gem 'chriseppstein-compass', :version => '0.6.6', :lib => 'compass', :source => 'gems.github.com'
 
