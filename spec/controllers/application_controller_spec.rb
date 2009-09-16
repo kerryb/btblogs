@@ -13,12 +13,12 @@ end
 describe ApplicationController do
   controller_name :foo
 
-  it 'should use the default layout' do
+  it 'uses the default layout' do
     get :foo
     response.layout.should == 'layouts/default'
   end
 
-  it 'should assign a list of confirmed blogs for the view' do
+  it 'assigns a list of confirmed blogs for the view' do
     confirmed_blog_1 = Factory(:confirmed_blog)
     unconfirmed_blog = Factory(:blog)
     confirmed_blog_2 = Factory(:confirmed_blog)

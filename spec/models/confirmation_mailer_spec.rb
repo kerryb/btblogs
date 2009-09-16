@@ -11,19 +11,19 @@ describe ConfirmationMailer do
       ConfirmationMailer.create_confirmation @blog
     end
 
-    it 'should set the from address' do
+    it 'sets the from address' do
       create_mail.from.should == ['admin@btblo.gs']
     end
 
-    it 'should send to the specified address' do
+    it 'sends to the specified address' do
       create_mail.to.should == [@email]
     end
 
-    it "should have a subject of 'BTBlo.gs Confirmation'" do
+    it "has a subject of 'BTBlo.gs Confirmation'" do
       create_mail.subject.should == 'BTBlo.gs Confirmation'
     end
 
-    it "should show the confirmation URL" do
+    it "shows the confirmation URL" do
       create_mail.body.should =~ %r(/blogs/confirm/#{@blog.confirmation_code})
     end
   end

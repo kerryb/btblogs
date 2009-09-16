@@ -15,9 +15,20 @@ describe Blog do
   it { should_not allow_value('fred.bloggs@not-bt.com').for(:owner_email).with_message('must be @bt.com') }
   it { should_not allow_value('bt.com@not-bt.com').for(:owner_email).with_message('must be @bt.com') }
   it { should_not allow_mass_assignment_of(:confirmed) }
-  it { should have_named_scope(:confirmed).finding(:conditions => {:confirmed => true}) }
 
-  it 'should set a random confirmation_code on each save' do
+  describe "named scope 'confirmed'" do
+    before do
+      Blog.delete_all
+      @confirmed = Factory :blog, :confirmed => true
+      @unconfirmed = Factory :blog, :confirmed => false
+    end
+
+    it 'includes only records where confirmed is true' do
+      Blog.confirmed.should == [@confirmed]
+    end
+  end
+
+  it 'sets a random confirmation_code on each save' do
     blog = Factory :blog
     code = blog.confirmation_code
     code.should =~ /^\w{20}$/

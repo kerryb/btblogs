@@ -9,7 +9,7 @@ describe 'The new blog page' do
     render 'blogs/new.html.haml'
   end
 
-  it 'should render a create user form' do
+  it 'renders a create user form' do
     do_render
     response.should have_tag("form[action='/blogs']") do
       with_tag "input[type='text'][name='blog[owner_name]']"
@@ -21,7 +21,7 @@ describe 'The new blog page' do
     end
   end
 
-  it 'should render any errors' do
+  it 'renders any errors' do
     assigns[:blog].errors.add :owner_name, 'is a silly name'
     do_render
     response.should have_tag("div[class='errorExplanation']") do

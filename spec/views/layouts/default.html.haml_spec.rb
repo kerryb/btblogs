@@ -5,7 +5,7 @@ describe 'The default layout' do
     render :text => '', :layout => true
   end
 
-  it 'should render links to all blogs' do
+  it 'renders links to all blogs' do
     blog_1 = Factory :blog, :owner_name => 'Amy Acker', :html_uri => 'foo'
     blog_2 = Factory :blog, :owner_name => 'Bill Bailey', :html_uri => 'bar'
     assigns[:blogs] = [blog_1, blog_2]
@@ -17,7 +17,7 @@ describe 'The default layout' do
   end
 
   describe 'when there is a flash notice' do
-    it 'should render the notice' do
+    it 'renders the notice' do
       flash[:notice] = 'Hello'
       do_render
       response.should have_tag('div#notice', 'Hello')
@@ -25,7 +25,7 @@ describe 'The default layout' do
   end
 
   describe 'when there is not a flash notice' do
-    it 'should not render a notice div' do
+    it 'does not render a notice div' do
       do_render
       response.should_not have_tag('div#notice')
     end

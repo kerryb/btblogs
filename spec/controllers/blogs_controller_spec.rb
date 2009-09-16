@@ -2,12 +2,12 @@ require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
 describe BlogsController do
   describe '#new' do
-    it 'should be successful' do
+    it 'is successful' do
       get :new
       response.should be_success
     end
 
-    it 'should assign a new blog for the view' do
+    it 'assigns a new blog for the view' do
       blog = mock_model Blog
       Blog.stub!(:new).and_return blog
       get :new
@@ -30,18 +30,18 @@ describe BlogsController do
         post :create, @params.merge('commit' => 'cancel')
       end
 
-      it 'should redirect back to the home page' do
+      it 'redirects back to the home page' do
         do_post
         response.should redirect_to('/')
       end
 
-      it 'should not create a new blog record' do
+      it 'does not create a new blog record' do
         Blog.should_not_receive :new
         do_post
       end
     end
 
-    it 'should create and save a new blog record' do
+    it 'creates and save a new blog record' do
       blog = mock_model Blog
       Blog.stub!(:new).with(@params['blog']).and_return blog
       blog.should_receive(:save)
@@ -54,17 +54,17 @@ describe BlogsController do
         Blog.stub!(:new).and_return @blog
       end
 
-      it 'should not send a confirmation e-mail' do
+      it 'does not send a confirmation e-mail' do
         ConfirmationMailer.should_not_receive :deliver_confirmation
         do_post
       end
 
-      it 'should re-render the new blog form' do
+      it 're-renders the new blog form' do
         do_post
         response.should render_template(:new)
       end
 
-      it 'should assign the blog for the view' do
+      it 'assigns the blog for the view' do
         do_post
         assigns[:blog].should == @blog
       end
@@ -77,17 +77,17 @@ describe BlogsController do
         ConfirmationMailer.stub! :deliver_confirmation
       end
 
-      it 'should redirect to the home page' do
+      it 'redirects to the home page' do
         do_post
         response.should redirect_to(root_url)
       end
 
-      it 'should send a confirmation e-mail' do
+      it 'sends a confirmation e-mail' do
         ConfirmationMailer.should_receive(:deliver_confirmation).with(@blog)
         do_post
       end
 
-      it 'should put a message in the flash' do
+      it 'puts a message in the flash' do
         do_post
         flash[:notice].should == 'Thank you for adding your blog. You should receive an e-mail shortly, with a confirmation link.'
       end
